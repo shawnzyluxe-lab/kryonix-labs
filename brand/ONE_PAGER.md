@@ -12,7 +12,7 @@ Kryonix Labs is an independent product studio building AI-powered tools that tur
 ## Our products
 
 **Vantav Commerce** — *Commerce*
-An AI-powered storefront platform for independent brands. Launch a fast, beautiful shop on top of an existing catalogue, then let Vantav surface the products, bundles and promotions most likely to convert. Includes smart recommendations, a profit dashboard and margin alerts.
+The AI operations platform for multi-channel merchants. Vantav unifies Shopify, TikTok Shop, Amazon and eBay into one profit-first dashboard, then surfaces margin alerts, demand forecasts and recommended actions you approve before they execute.
 
 **Zyvrn** — *Small-business finance*
 Your AI-powered operations and treasury assistant for Square sellers. Zyvrn connects point-of-sale and business banking to deliver a true daily profit number, a cash-runway forecast and AI-drafted money moves owners can approve in one tap. Ask your business anything.
@@ -32,7 +32,7 @@ A disciplined research and journaling workflow for serious individual traders. A
 - Individual traders who want process and accountability, not tips.
 
 ## Status
-- **Vantav Commerce** — live storefront in production; AI features rolling out.
+- **Vantav Commerce** — live operations platform in production; AI features staged for launch pending partner approval.
 - **Zyvrn** — pre-launch; waitlist open.
 - **AAE** — research tool; early access by invitation.
 

@@ -9,7 +9,7 @@ Large companies solve this with analysts and dashboards. Small operators don't h
 Kryonix Labs is an independent product studio building AI-powered tools for three high-friction operator workflows:
 
 ### Vantav Commerce — Commerce
-AI-powered storefronts for independent brands. Launch fast on top of an existing catalogue, then let Vantav surface the products, bundles and promotions most likely to convert. Includes smart recommendations, a profit dashboard and margin alerts.
+AI operations for multi-channel merchants. Vantav replaces spreadsheet chaos with one profit-first dashboard, unifying Shopify, TikTok Shop, Amazon and eBay, and surfacing AI-drafted actions with a human approval gate.
 
 **Stage:** live, at partner approval stage.
 
@@ -26,19 +26,19 @@ A disciplined research and journaling workflow for serious individual traders. A
 ## 3. The model
 Each product starts as a focused, paid SaaS. Common platform: AI-drafted insights, one-tap approvals, and a daily brief that turns scattered data into a short list of actions worth taking.
 
-- **Vantav:** commerce tier + AI merchandising add-on.
+- **Vantav:** tiered SaaS for multi-channel merchants + AI operations add-ons.
 - **Zyvrn:** subscription per connected location.
 - **AAE:** freemium research tier + paid journal/automation plan.
 
 All three share one design principle: **AI drafts, human decides.** Nothing runs on autopilot, which keeps risk low and trust high.
 
 ## 4. Traction
-- **Vantav Commerce:** live storefront in production; AI features staged for launch pending partner approval.
+- **Vantav Commerce:** live operations platform in production; AI features staged for launch pending partner approval.
 - **Zyvrn:** technical foundation built; pre-launch waitlist and brand in place.
 - **AAE:** research engine operational in shadow mode; not yet offered commercially.
 
 ## 5. The market
-- **E-commerce enablement:** $10B+ and growing, driven by independent brands seeking better storefronts and merchandising.
+- **E-commerce operations:** $10B+ and growing, driven by independent brands seeking unified profit visibility and AI-assisted decision making.
 - **SMB finance/operations:** massive underserved segment on Square; demand is high for daily cash visibility.
 - **Retail trading tools:** large market, but we are entering carefully as an education/journal product, not a signal service.
 

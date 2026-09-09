@@ -17,7 +17,7 @@ Kryonix Labs is an independent product studio building AI-powered tools that hel
 ## Product family
 | Product | Category | One-liner |
 |---|---|---|
-| **Vantav Commerce** | Commerce | AI-powered storefront platform for independent brands. |
+| **Vantav Commerce** | Commerce | AI operations platform for multi-channel merchants. |
 | **Zyvrn** | Small-business finance | Your AI-powered operations and treasury assistant for Square sellers. |
 | **AAE** | Trading research | A disciplined research and journaling workflow for serious individual traders. |
 
