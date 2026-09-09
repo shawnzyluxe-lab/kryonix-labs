@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 72" width="420" height="72" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6EE7F9"/>
+      <stop offset="1" stop-color="#7C5CFF"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(4 4)">
+    <path d="M32 4 56 18v28L32 60 8 46V18z" stroke="url(#g)" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M24 18v28" stroke="url(#g)" stroke-width="5" stroke-linecap="round"/>
+    <path d="M26 32 42 18M26 32 42 46" stroke="url(#g)" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="42" cy="18" r="3.5" fill="#6EE7F9"/>
+    <circle cx="42" cy="46" r="3.5" fill="#7C5CFF"/>
+  </g>
+  <text x="84" y="46" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="1" fill="#F5F7FF">KRYONIX <tspan font-weight="400" fill="#9AA3C7">LABS</tspan></text>
+</svg>
