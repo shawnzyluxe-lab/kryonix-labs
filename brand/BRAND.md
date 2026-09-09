@@ -58,4 +58,4 @@ Product accents: Vantav = Cyan, Zyvrn = Violet, AAE = Amber `#FFC97A`.
 - Eyebrows / tags: uppercase, 0.15–0.25em tracking, 0.75–0.8rem.
 
 ## Contact
-hello@kryonixlabs.com · https://kryonixlabs.com
+shawnj@kryonixlabs.com · https://kryonixlabs.com

@@ -57,6 +57,6 @@ Investors interested in AI-enabled SMB tools and disciplined founders who ship. 
 ---
 
 **Contact**
-hello@kryonixlabs.com · https://kryonixlabs.com/investor.html
+shawnj@kryonixlabs.com · https://kryonixlabs.com/investor.html
 
 *AAE is currently an internal research and journaling tool. Nothing produced by Kryonix Labs is investment advice.*
