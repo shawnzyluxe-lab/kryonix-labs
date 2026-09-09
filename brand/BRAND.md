@@ -19,7 +19,7 @@ Kryonix Labs is an independent product studio building AI-powered tools that hel
 |---|---|---|
 | **Vantav Commerce** | Commerce | AI-powered storefront platform for independent brands. |
 | **Zyvrn** | Small-business finance | Your AI-powered operations and treasury assistant for Square sellers. |
-| **Aegis Alpha Engine** | Trading research | A disciplined research and journaling workflow for serious individual traders. |
+| **AAE** | Trading research | A disciplined research and journaling workflow for serious individual traders. |
 
 ## Voice
 - Confident, calm, precise. No hype.
@@ -51,7 +51,7 @@ autonomous · COO / fractional COO · engine internals (orchestration, agents, p
 | Violet | `#7C5CFF` | Accent, focus |
 | Gradient | Cyan → Violet at 120° | CTAs, headline highlight, logo |
 
-Product accents: Vantav = Cyan, Zyvrn = Violet, Aegis = Amber `#FFC97A`.
+Product accents: Vantav = Cyan, Zyvrn = Violet, AAE = Amber `#FFC97A`.
 
 ## Typography
 - **Inter** (Google Fonts). Headlines 700–800, tight letter-spacing (−0.02em). Body 400, 1.6 line-height.
