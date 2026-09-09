@@ -1,16 +1,13 @@
 # Kryonix Labs — website & brand kit
 
+Live site: https://kryonixlabs.com
+
 Static landing site for Kryonix Labs, the studio behind Vantav Commerce, Zyvrn and AAE.
 
-- `index.html`, `styles.css` — landing page (no build step; open directly or serve any static host)
-- `brand/` — logo, wordmark, brand guidelines (`BRAND.md`) and one-pager (`ONE_PAGER.md`)
-
-## Preview locally
-
-```bash
-python3 -m http.server 8080
-```
+- `index.html`, `styles.css` — main landing page
+- `investor.html` — investor snapshot page
+- `brand/` — logo, wordmark, brand guidelines (`BRAND.md`), one-pager (`ONE_PAGER.md`) and investor one-pager (`INVESTOR_ONE_PAGER.md`)
 
 ## Deploy
 
-Any static host works (GitHub Pages, Netlify, Vercel, Render Static Site). Publish the repository root.
+Pushes to `main` are deployed automatically to GitHub Pages at https://kryonixlabs.com.
