@@ -17,8 +17,8 @@ An AI-powered storefront platform for independent brands. Launch a fast, beautif
 **Zyvrn** — *Small-business finance*
 Your AI-powered operations and treasury assistant for Square sellers. Zyvrn connects point-of-sale and business banking to deliver a true daily profit number, a cash-runway forecast and AI-drafted money moves owners can approve in one tap. Ask your business anything.
 
-**Aegis Alpha Engine** — *Trading research*
-A disciplined research and journaling workflow for serious individual traders. Aegis scans a universe, prepares every number a trade needs, and keeps an honest, automated journal of the market, the ideas and the decisions. Human-in-the-loop by design — the trader always makes the call.
+**AAE** — *Trading research*
+A disciplined research and journaling workflow for serious individual traders. AAE scans a universe, prepares every number a trade needs, and keeps an honest, automated journal of the market, the ideas and the decisions. Human-in-the-loop by design — the trader always makes the call.
 
 ## How we're different
 1. **Clarity first.** One number that matters, one screen that explains it.
@@ -34,9 +34,9 @@ A disciplined research and journaling workflow for serious individual traders. A
 ## Status
 - **Vantav Commerce** — live storefront in production; AI features rolling out.
 - **Zyvrn** — pre-launch; waitlist open.
-- **Aegis Alpha Engine** — research tool; early access by invitation.
+- **AAE** — research tool; early access by invitation.
 
 ## Get in touch
 hello@kryonixlabs.com · kryonixlabs.com
 
-*Aegis Alpha Engine is a research and journaling tool. Nothing produced by Kryonix Labs is investment advice.*
+*AAE is a research and journaling tool. Nothing produced by Kryonix Labs is investment advice.*
