@@ -4,6 +4,9 @@
 **Kryonix Labs** — always "Kryonix Labs" in prose (capital K, capital L). Shorthand: "Kryonix".
 Never "KRYONIX" or "kryonix labs" in customer-facing copy (all-caps is reserved for the wordmark).
 
+## What Kryonix means
+**Kryonix** — precision technology engineered for complex systems.
+
 ## Tagline
 **Intelligence, engineered.**
 
