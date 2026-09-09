@@ -37,6 +37,6 @@ A disciplined research and journaling workflow for serious individual traders. A
 - **AAE** — research tool; early access by invitation.
 
 ## Get in touch
-hello@kryonixlabs.com · kryonixlabs.com
+hello@kryonixlabs.com · https://kryonixlabs.com
 
 *AAE is a research and journaling tool. Nothing produced by Kryonix Labs is investment advice.*
