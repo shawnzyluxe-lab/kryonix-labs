@@ -106,6 +106,7 @@ Prove that five Square-powered cafes or quick-service operators:
 - Track predicted versus actual balance.
 - Keep scenarios simple and reversible.
 - Defer autonomous actions and broad “ask anything” experiences.
+- Build with Square Sandbox and Plaid Sandbox/eligible Trial access now; make full provider approval a scale gate rather than a prerequisite.
 
 ## Opportunity 3 — Trusted Advisor Distribution
 

@@ -143,8 +143,59 @@ Version assumptions and retain forecast snapshots so the system can explain why 
 - Encrypt OAuth tokens at rest and keep encryption keys outside source control.
 - Use separate staging and production credentials.
 - Support token refresh and revocation.
-- Start Plaid's security and production-access process early; full production access requires company and security information.
+- Use Plaid Trial as the first real-data bridge when the Zyven Plaid team is eligible. For US/Canada teams created on or after April 15, 2026, Trial permits real production data for up to 10 lifetime Production Items.
+- Treat full Plaid Production access, expanded institution access, and provider security review as scale gates, not prerequisites for building the intelligence layer.
 - Keep money movement out of the first release.
+
+## Provider Access Roadmap
+
+Provider access is achievable in stages. Do not delay customer and forecast validation while pursuing enterprise-scale partnership status.
+
+**Integration order:** Plaid first for connected cash and transaction data, then Square production OAuth. Develop the Square model in Sandbox while validating the initial intelligence layer through eligible Plaid Trial access.
+
+### Phase 1 — Intelligence foundation
+
+- Build the deterministic forecast, obligation model, scenarios, explanations, and forecast-error tracking.
+- Implement the requested Plaid balance and transaction products first when they are available under the account's Trial access.
+- Use Square Sandbox sellers and test data.
+- Use Plaid Sandbox for systematic testing.
+- If the Plaid team is Trial-eligible, use a controlled founder or test connection with real production data.
+- Complete the minimum privacy, consent, authentication, token-storage, logging, and incident-response foundation needed to handle sensitive data responsibly.
+
+### Phase 2 — Limited real-business cohort
+
+- Onboard a small number of design partners through Square seller OAuth.
+- Use Plaid Trial for up to 10 production Items if the account is eligible and the intended products and institutions are available.
+- Keep onboarding founder-led.
+- Record consent, data sources, token lifecycle, access revocation, forecast accuracy, and support load.
+- Do not treat access to real data as permission for broad public launch.
+
+### Phase 3 — Product proof
+
+Prove that Zyven can accurately and repeatedly distinguish:
+
+- Total connected cash
+- Cash committed to confirmed obligations
+- Payout timing versus obligation timing
+- The date an operating safety threshold could be crossed
+- The assumptions and data that create the warning
+
+Use real customer evidence to replace illustrative claims. Track predicted versus actual balances so provider and customer conversations are grounded in measured performance.
+
+### Phase 4 — Scale readiness
+
+Approach Plaid, Square, and other providers with:
+
+- A legitimate entity and clear ownership
+- A narrow, documented use case
+- Active users and usage evidence
+- Current privacy policy and terms
+- Security and data-handling controls
+- Authentication and consent architecture
+- Incident-response procedures
+- Monitoring, auditability, revocation, and support processes
+
+Request expanded production access only when the product is ready to exceed Trial or small-cohort limits. A serious financial platform is earned through trustworthy operations, not just successful API calls.
 
 ## Business Model
 
@@ -187,7 +238,8 @@ Do not pursue a marketplace listing as the first validation channel. First prove
 ### Week 2 — Concierge forecast
 
 - Enroll five design partners.
-- Import or enter historical Square, bank, and obligation data with consent.
+- Use Square Sandbox and Plaid Sandbox or eligible Trial connections while preparing seller OAuth for the first approved real businesses.
+- Import or enter historical Square, bank, and obligation data with explicit consent.
 - Reconstruct whether Zyven would have warned about prior cash problems.
 - Document missing data and incorrect assumptions.
 
@@ -241,7 +293,7 @@ Otherwise narrow the segment, revise the obligation workflow, or pause broader d
 2. **Brand inconsistency:** Kryonix materials use `Zyvrn`, while the live product and domain use `Zyven`.
 3. **Unsupported proof claims:** The live site presents quantified outcomes and a testimonial that must be verified or labeled as sandbox examples.
 4. **Scope expansion:** “Ask your business anything” pushes the product toward a generic assistant before the cash-cliff workflow is validated.
-5. **Integration dependency:** Square Marketplace and Plaid production readiness require security, OAuth, support, and company information.
+5. **Scale readiness:** Plaid Trial and Square Sandbox/OAuth can support early validation, but expanding beyond a small cohort requires stronger company, security, consent, support, and monitoring evidence.
 6. **Trust:** Incorrect forecasts can damage credibility quickly; error measurement is a launch requirement, not a later analytics feature.
 
 ## Founder Decision Recorded
@@ -265,5 +317,9 @@ Review after 10 qualified interviews or at the six-week gate. Reconsider the seg
 - Square Payouts API: https://developer.squareup.com/docs/payouts-api/overview
 - Square App Marketplace onboarding guidance: https://developer.squareup.com/docs/app-marketplace/listing-best-practices/get-started
 - Plaid OAuth and production access: https://plaid.com/docs/link/oauth/
+- Plaid Trial plans and billing: https://plaid.com/docs/account/billing/
+- Plaid Sandbox and Trial testing: https://plaid.com/docs/sandbox/
+- Square OAuth overview: https://developer.squareup.com/docs/oauth-api/overview
+- Square seller authorization and token management: https://developer.squareup.com/docs/oauth-api/receive-and-manage-tokens
 - CashPulse: https://getcashpulse.com/
 - Finoya: https://www.finoya.ai/small-business-owners/
