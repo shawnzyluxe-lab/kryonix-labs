@@ -1,7 +1,7 @@
 # Kryonix Labs Portfolio Register
 
 **Last reviewed:** 2026-09-10
-**Status:** Initial CIOO inventory; Kryonix parent repository write access verified
+**Status:** CIOO access inventory; repository, domain, DNS, and hosting controls reviewed
 
 ## Portfolio
 
@@ -27,13 +27,35 @@
 | `shawnzyluxe-lab/aegis-manual-lab` | Aegis manual research sandbox | Yes | No | Yes | Remote read access verified |
 | `shawnzyluxe-lab/aegis-nano-scanner` | Aegis crypto observation sandbox | Yes | No | No | Current remote access fails |
 
+## Domain and Hosting Access
+
+All listed public endpoints returned valid HTTPS responses on 2026-09-10. A `404` from the Zyven API root confirms that the service is reachable but does not establish application health.
+
+| Venture | Public endpoints | DNS / registrar | Hosting control | Current access |
+|---|---|---|---|---|
+| Kryonix Labs | `kryonixlabs.com` | Cloudflare nameservers and registrar | GitHub Pages | Site and repository verified; no stored token can administer this Cloudflare zone |
+| Vantav Commerce | `vantavcommerce.com` | Cloudflare nameservers and registrar | Render service `shawnzyluxe`; Render Postgres and Redis | Render API and Cloudflare DNS read/edit access verified |
+| Zyven | `thezyven.com`, `app.thezyven.com`, `api.thezyven.com` | Cloudflare nameservers and registrar | Render web, API, worker, Postgres, and Redis | Render API access verified; no stored token can administer this Cloudflare zone |
+| Aegis Alpha | `aegisalphaengine.com` | Cloudflare nameservers; Porkbun registrar | Render web services and scheduled jobs | Render API access verified; no stored token can administer this Cloudflare zone or its Porkbun registration |
+
+### Control-plane findings
+
+- The native GitHub integration is installed, but Git Manager can clone only `kryonix-labs` and `aegis-manual-lab`.
+- Both stored GitHub administrative PATs return `401 Bad credentials`; repair repository access through the native GitHub integration rather than relying on them.
+- The stored Render API access covers Vantav, Zyven, Aegis web services, scheduled jobs, and their Postgres/Redis resources.
+- The stored Cloudflare API token is active but restricted to `vantavcommerce.com`.
+- The stored Porkbun credentials do not authorize `aegisalphaengine.com`.
+- `www.thezyven.com` resolves and serves HTTPS, but Render reports that custom-domain alias as unverified; the apex, app, and API names are verified.
+
 ### Access repair required
 
 1. Synchronize this Devin organization's Git Manager access with all repositories above.
    - Devin setting: `/settings/connections/github#github-repo-permissions`
-2. Confirm the `zyven` repository contains the work from the other Devin account and has a default branch.
-3. Verify push access only when a scoped change is ready; do not test write access by pushing disposable commits.
-4. Transfer cross-account project context using repository documents or explicit handoff files, not credentials.
+2. Create a least-privilege Cloudflare API token with `Zone:Read` and `DNS:Edit` for `kryonixlabs.com`, `vantavcommerce.com`, `thezyven.com`, and `aegisalphaengine.com`.
+3. Provide Porkbun API credentials authorized for `aegisalphaengine.com`, or retain registrar actions as founder-only.
+4. Confirm the `zyven` repository contains the work from the other Devin account and has a default branch.
+5. Verify push access only when a scoped change is ready; do not test write access by pushing disposable commits.
+6. Transfer cross-account project context using repository documents or explicit handoff files, not credentials.
 
 ## Devin Session Access
 
