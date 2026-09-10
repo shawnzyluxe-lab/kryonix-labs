@@ -19,13 +19,13 @@
 | Repository | Portfolio role | Listed | Local copy | Remote clone | Notes |
 |---|---|---:|---:|---:|---|
 | `shawnzyluxe-lab/kryonix-labs` | Parent site and brand kit | Yes | Yes | Yes | Read and branch-push access verified; current portfolio source of truth |
-| `shawnzyluxe-lab/EcommerceAI` | Vantav Commerce | Yes | Yes | No | Local snapshot exists; current remote access fails |
-| `shawnzyluxe-lab/zyven` | Zyven application | Yes | No | No | Rechecked 2026-09-10: listing exists, but clone and PR reads return not found; handoff reports main at `1a081de` |
-| `shawnzyluxe-lab/aegisalpha-wealth-hub` | Aegis platform | Yes | Yes | No | Local snapshot exists; current remote access fails |
-| `shawnzyluxe-lab/aegisalpha-trading-engine` | Aegis shadow research engine | Yes | Yes | No | Local snapshot exists; current remote access fails |
-| `shawnzyluxe-lab/aegisalpha-trading-journal` | Private shadow journal | Yes | No | No | Do not use a production journal for testing |
+| `shawnzyluxe-lab/EcommerceAI` | Vantav Commerce | Yes | Yes | Yes | Remote `main` verified at `5e48683`; local snapshot predates it |
+| `shawnzyluxe-lab/zyven` | Zyven application | Yes | No | Yes | Remote `main` verified at the handoff's `1a081de`; PR reads work |
+| `shawnzyluxe-lab/aegisalpha-wealth-hub` | Aegis platform | Yes | Yes | Yes | Remote `main` verified at `0af8e1b`; local snapshot predates it |
+| `shawnzyluxe-lab/aegisalpha-trading-engine` | Aegis shadow research engine | Yes | Yes | Yes | Remote `main` verified at `90fc9c8`; do not disturb the active trial |
+| `shawnzyluxe-lab/aegisalpha-trading-journal` | Private shadow journal | Yes | No | Yes | Remote `main` verified at `a818c46`; do not use production journal data for testing |
 | `shawnzyluxe-lab/aegis-manual-lab` | Aegis manual research sandbox | Yes | No | Yes | Remote read access verified |
-| `shawnzyluxe-lab/aegis-nano-scanner` | Aegis crypto observation sandbox | Yes | No | No | Current remote access fails |
+| `shawnzyluxe-lab/aegis-nano-scanner` | Aegis crypto observation sandbox | Yes | No | Yes | Remote `main` verified at `ef78eb6` |
 
 ## Domain and Hosting Access
 
@@ -40,22 +40,20 @@ All listed public endpoints returned valid HTTPS responses on 2026-09-10. A `404
 
 ### Control-plane findings
 
-- The native GitHub integration is installed, but Git Manager can clone only `kryonix-labs` and `aegis-manual-lab`.
-- Both stored GitHub administrative PATs return `401 Bad credentials`; repair repository access through the native GitHub integration rather than relying on them.
+- The native GitHub integration is installed and Git Manager can read all eight listed repositories.
+- Both stored GitHub administrative PATs return `401 Bad credentials`; do not rely on them, and rotate or remove them only if an administrative workflow still needs a PAT.
 - The stored Render API access covers Vantav, Zyven, Aegis web services, scheduled jobs, and their Postgres/Redis resources.
 - The stored Cloudflare API token is active but restricted to `vantavcommerce.com`.
 - The stored Porkbun credentials do not authorize `aegisalphaengine.com`.
 - `www.thezyven.com` resolves and serves HTTPS, but Render reports that custom-domain alias as unverified; the apex, app, and API names are verified.
 
-### Access repair required
+### Access state and deferred controls
 
-1. Synchronize this Devin organization's Git Manager access with all repositories above.
-   - Devin setting: `/settings/connections/github#github-repo-permissions`
-2. Create a least-privilege Cloudflare API token with `Zone:Read` and `DNS:Edit` for `kryonixlabs.com`, `vantavcommerce.com`, `thezyven.com`, and `aegisalphaengine.com`.
-3. Provide Porkbun API credentials authorized for `aegisalphaengine.com`, or retain registrar actions as founder-only.
-4. Confirm the `zyven` repository contains the work from the other Devin account and has a default branch.
-5. Verify push access only when a scoped change is ready; do not test write access by pushing disposable commits.
-6. Transfer cross-account project context using repository documents or explicit handoff files, not credentials.
+1. All eight portfolio repositories were independently readable through Git Manager on 2026-09-10.
+2. The founder chose to retain Cloudflare administration for Kryonix, Zyven, and Aegis for now; the existing Devin token remains limited to Vantav.
+3. The founder chose to retain Porkbun registrar administration for Aegis for now.
+4. Verify branch-push access only when a scoped change is ready; do not test write access by pushing disposable commits.
+5. Transfer cross-account project context using repository documents or explicit handoff files, not credentials.
 
 ## Devin Session Access
 
@@ -108,7 +106,7 @@ Until these are resolved, use **Kryonix Labs**, **Vantav Commerce**, **Zyven**, 
 
 ## Missing Source-of-Truth Inputs
 
-- Independent access to and verification of the Zyven repository
+- Full code and deployment verification of the now-accessible Zyven repository
 - Current Vantav launch blocker and commercial readiness
 - Aegis current shadow-trial dates and latest verdict
 - Entity state, target formation date, ownership, and fundraising intent
