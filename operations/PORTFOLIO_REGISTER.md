@@ -1,7 +1,7 @@
 # Kryonix Labs Portfolio Register
 
 **Last reviewed:** 2026-09-10
-**Status:** Initial CIOO inventory; repository write access has not been verified
+**Status:** Initial CIOO inventory; Kryonix parent repository write access verified
 
 ## Portfolio
 
@@ -18,7 +18,7 @@
 
 | Repository | Portfolio role | Listed | Local copy | Remote clone | Notes |
 |---|---|---:|---:|---:|---|
-| `shawnzyluxe-lab/kryonix-labs` | Parent site and brand kit | Yes | Yes | Yes | Current working source of truth for portfolio branding |
+| `shawnzyluxe-lab/kryonix-labs` | Parent site and brand kit | Yes | Yes | Yes | Read and branch-push access verified; current portfolio source of truth |
 | `shawnzyluxe-lab/EcommerceAI` | Vantav Commerce | Yes | Yes | No | Local snapshot exists; current remote access fails |
 | `shawnzyluxe-lab/zyven` | Zyven application | Yes | No | No | Repository listing exists, but Git Manager returns repository not found |
 | `shawnzyluxe-lab/aegisalpha-wealth-hub` | Aegis platform | Yes | Yes | No | Local snapshot exists; current remote access fails |
