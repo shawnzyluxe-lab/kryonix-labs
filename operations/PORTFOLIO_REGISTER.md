@@ -73,7 +73,6 @@ A sanitized CIOO handoff was received on 2026-09-10 and recorded in `ZYVEN_BUILD
 - Rotate the production account credential disclosed in the cross-account handoff and invalidate related sessions where supported.
 - Remove the temporary Render Postgres network allowlist entry after its login task is confirmed.
 - Keep Stripe as Phase 2 until the Square and Plaid workflow is validated.
-- Do not merge ambiguous “reserve credit” into cash or runway calculations before the founder defines it.
 
 ## Naming Decisions Needed
 

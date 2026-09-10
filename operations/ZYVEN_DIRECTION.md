@@ -325,7 +325,6 @@ Review after 10 qualified interviews or at the six-week gate. Reconsider the seg
 
 1. Confirm whether the live testimonial and quantified outcomes are real customer evidence or sandbox copy.
 2. Resolve the UI direction represented by open PR #25.
-3. Define “reserve credit” before it affects available-cash or runway calculations.
 
 ## Sources
 
