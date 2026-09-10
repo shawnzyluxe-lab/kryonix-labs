@@ -6,6 +6,7 @@ Internal source of truth for managing Kryonix Labs and its ventures.
 
 - `PORTFOLIO_REGISTER.md` — ventures, repositories, sessions, constraints, and missing inputs
 - `OPERATING_SYSTEM.md` — decision rights, stage gates, cadence, scorecard, risks, and work intake
+- `DECISION_LOG.md` — founder-approved portfolio and venture decisions with review triggers
 - `ZYVEN_DIRECTION.md` — recommended Zyven beachhead, product scope, validation plan, and scorecard
 - `BRAND_AUDIT.md` — portfolio architecture, naming conflicts, claim audit, and preliminary name-risk screen
 - `OPPORTUNITY_PRIORITIES.md` — six-week company priorities and founder-time allocation

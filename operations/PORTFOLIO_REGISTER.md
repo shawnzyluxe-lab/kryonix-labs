@@ -9,7 +9,7 @@
 |---|---|---|---|---|
 | Kryonix Labs | Parent product studio for operator intelligence | https://kryonixlabs.com | Operating foundation | Confirm parent/venture naming and company formation path |
 | Vantav Commerce | Commerce venture whose live platform is currently branded `Prometheus OS` | https://vantavcommerce.com | Deployed beta surface; commercial and partner status unverified | Define the Vantav/Prometheus hierarchy and verify current launch dependency |
-| Zyven | Deterministic cash forecasting and cash-cliff alerts for Square sellers | https://thezyven.com | Sandbox/pre-launch | Choose beachhead customer and standardize the product spelling |
+| Zyven | Deterministic cash forecasting and cash-cliff alerts for single-location Square cafes and quick-service operators | https://thezyven.com | Sandbox/pre-launch; first design-partner cohort approved | Recruit and interview the first 10 qualified operators; standardize the product spelling |
 | Aegis Alpha | Trading research, journaling, and operator-facing wealth tools | https://aegisalphaengine.com | Active shadow research and platform development | Preserve shadow-trial and platform-layout guardrails |
 
 ## Repository Access

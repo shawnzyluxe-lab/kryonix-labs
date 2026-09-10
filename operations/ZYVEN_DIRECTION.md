@@ -1,6 +1,6 @@
 # Zyven Product Direction
 
-**Status:** CIOO recommendation based on the live product, Kryonix materials, and public market research. Reconcile with the cross-account build handoff before changing the roadmap.
+**Status:** Founder approved the first design-partner cohort on 2026-09-10. Remaining recommendations are based on the live product, Kryonix materials, and public market research and must be reconciled with the cross-account build handoff before changing the roadmap.
 
 ## Executive Decision
 
@@ -22,7 +22,7 @@ An owner-operator with:
 - Limited cash buffer
 - No full-time finance employee
 
-Start with cafes and quick-service operators. Their high-frequency sales, recurring expenses, payout timing, and narrow cash buffers create a frequent, measurable problem. Expand to retail and service businesses only after the forecast and onboarding process work repeatedly for the first segment.
+The founder selected cafes and quick-service operators as the first design-partner cohort. Their high-frequency sales, recurring expenses, payout timing, and narrow cash buffers create a frequent, measurable problem. Expand to retail and service businesses only after the forecast and onboarding process work repeatedly for the first segment.
 
 ### Problem
 
@@ -244,12 +244,17 @@ Otherwise narrow the segment, revise the obligation workflow, or pause broader d
 5. **Integration dependency:** Square Marketplace and Plaid production readiness require security, OAuth, support, and company information.
 6. **Trust:** Incorrect forecasts can damage credibility quickly; error measurement is a launch requirement, not a later analytics feature.
 
+## Founder Decision Recorded
+
+- **2026-09-10:** The first design-partner cohort is single-location cafes and quick-service restaurants using Square.
+
+Review after 10 qualified interviews or at the six-week gate. Reconsider the segment if fewer than five operators report recurring cash-timing problems or if the necessary forecast data is unavailable.
+
 ## Founder Decisions Required
 
-1. Approve or reject the beachhead: single-location cafes and quick-service Square sellers.
-2. Confirm the public spelling: `Zyven` or `Zyvrn`.
-3. Confirm whether the live testimonial and quantified outcomes are real customer evidence or sandbox copy.
-4. Decide whether the next six weeks optimize for paid design partners or continued product construction.
+1. Confirm the public spelling: `Zyven` or `Zyvrn`.
+2. Confirm whether the live testimonial and quantified outcomes are real customer evidence or sandbox copy.
+3. Decide whether the next six weeks optimize for paid design partners or continued product construction.
 
 ## Sources
 

@@ -219,6 +219,9 @@ Portfolio-level fields:
 ## Immediate Founder Decisions
 
 1. Should Vantav's first paid cohort target Shopify-led brands adding TikTok Shop?
-2. Should Zyven's first design cohort target single-location cafes and quick-service operators on Square?
-3. Should Vantav Commerce be the venture and Prometheus OS its endorsed product, or should one name be retired?
-4. Is the stated 60–90 day fundraising timeline still active?
+2. Should Vantav Commerce be the venture and Prometheus OS its endorsed product, or should one name be retired?
+3. Is the stated 60–90 day fundraising timeline still active?
+
+## Decision Recorded
+
+- **2026-09-10:** Zyven's first design-partner cohort is single-location cafes and quick-service restaurants using Square.
