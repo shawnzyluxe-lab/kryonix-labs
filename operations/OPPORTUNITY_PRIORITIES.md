@@ -19,7 +19,7 @@ Do not start a fourth product.
 | Rank | Opportunity | Why now | Next proof | Stop or redirect condition |
 |---:|---|---|---|---|
 | 1 | Vantav paid pilot | A deployed multi-channel product, live domain, pricing, beta flows, and operational modules already exist | One defined merchant segment, five completed onboardings, and three paying pilot merchants | No merchant completes setup or pays after focused outreach and onboarding repair |
-| 2 | Zyven design-partner validation | The product has a clear Square-based cash-flow wedge but needs customer and forecast evidence | Five connected businesses, repeat use of the daily brief, measured forecast error, and three paid continuations | Owners do not recognize the cash-cliff problem or connected forecasts do not influence decisions |
+| 2 | Zyven design-partner validation | A deployed sandbox platform and core deterministic engine are reported, but no live provider data or customer proof exists | Five connected businesses, repeat use of the daily brief, measured forecast error, and three paid continuations | Owners do not recognize the cash-cliff problem or connected forecasts do not influence decisions |
 | 3 | Portfolio access and identity | Missing repository access and undocumented brand relationships create execution and credibility risk across every venture | All repositories accessible to the operating account; founder-approved naming matrix; verified public claims | This is enabling work, so cap it rather than letting it replace customer work |
 | 4 | Vantav/Zyven channel partnerships | Bookkeepers, fractional finance operators, and commerce consultants can distribute trusted operational tools | Three partner interviews and one partner-sourced design customer | Partners demand broad features before introducing customers |
 | 5 | Aegis research evidence | The research program can become valuable only if its locked evaluation produces repeatable evidence | Complete the active shadow period and record the verdict without changing the trial | Any proposal requires changing an active trial, enabling live mode, or making public trading claims |
@@ -88,6 +88,8 @@ Zyven can own a narrower daily question than general finance products:
 
 The Square beachhead creates structured sales and payout data. The owner-confirmed obligation calendar creates information generic dashboards often miss.
 
+The cross-account handoff reports that the core Next.js/NestJS platform, Square and Plaid sandbox integrations, deterministic integer-cent math, cash forecasts, Daily Brief, grounded Ask workflow, and approval audit trail already exist. The next opportunity is trustworthy real-data validation, not another platform rewrite.
+
 ### Six-week objective
 
 Prove that five Square-powered cafes or quick-service operators:
@@ -107,6 +109,8 @@ Prove that five Square-powered cafes or quick-service operators:
 - Keep scenarios simple and reversible.
 - Defer autonomous actions and broad “ask anything” experiences.
 - Build with Square Sandbox and Plaid Sandbox/eligible Trial access now; make full provider approval a scale gate rather than a prerequisite.
+- Rotate the disclosed production credential and remove the temporary database allowlist before adding live customer data.
+- Keep Stripe as Phase 2 until customer evidence shows it is required.
 
 ## Opportunity 3 — Trusted Advisor Distribution
 
@@ -157,7 +161,7 @@ Reject new ventures unless one of the current products is explicitly paused and 
 ### Week 1
 
 - Confirm Vantav's actual launch blocker, connected channels, active users, and pricing readiness.
-- Obtain the Zyven cross-account handoff and repository access.
+- Verify the received Zyven handoff against the repository and repair access.
 - Approve an internal naming matrix; begin formal name review.
 - Confirm whether `Vantav LLC` exists and is the correct customer-facing contracting entity.
 - Recruit the first five interviews for each commercial venture.

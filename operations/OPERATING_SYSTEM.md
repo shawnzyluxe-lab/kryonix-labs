@@ -221,7 +221,9 @@ Always record:
 | Repository access is incomplete | Portfolio | Operational | High | High | Repair Git Manager scopes and verify access | Founder | Weekly | Open |
 | Product naming is inconsistent and uncleared | Portfolio | Brand/legal | High | High | Founder naming decision plus professional review | Founder | Weekly | Open |
 | Public claims may be stale or unsupported | Portfolio | Brand/legal | Medium | High | Add evidence owner and review date; remove unsupported claims | Founder | Weekly | Open |
-| Zyven build context is in another Devin organization | Zyven | Operational | High | Medium | Import an explicit handoff and repository state | Founder | Weekly | Open |
+| Zyven repository is still inaccessible from this Devin organization | Zyven | Operational | High | Medium | Repair Git Manager access and verify the reported main state | Founder | Weekly | Open |
+| A Zyven production password was disclosed and is below the reported signup policy | Zyven | Security | High | High | Rotate it, invalidate related sessions, and enforce the normal policy | Founder | Immediate | Open |
+| A temporary database network allowlist entry remains active | Zyven | Security | Medium | High | Remove it after the related login work is confirmed | Founder | Immediate | Open |
 | Vantav commercial and partner status is unverified | Vantav | Commercial | Medium | High | Confirm current blocker, owner, deadline, and proof | Founder | Weekly | Open |
 | Vantav legal pages name an unverified `Vantav LLC` entity | Vantav | Legal | High | High | Confirm the entity and obtain qualified review before accepting contracts or payments | Founder | Immediate | Open |
 | Aegis trial could be invalidated by unapproved changes | Aegis | Research | Low | High | Preserve all active-trial guardrails | Founder | Every review | Controlled |

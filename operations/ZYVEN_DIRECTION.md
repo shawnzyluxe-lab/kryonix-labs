@@ -1,6 +1,6 @@
 # Zyven Product Direction
 
-**Status:** Founder approved the first design-partner cohort on 2026-09-10. Remaining recommendations are based on the live product, Kryonix materials, and public market research and must be reconciled with the cross-account build handoff before changing the roadmap.
+**Status:** Reconciled with the founder's cross-account build handoff on 2026-09-10. Repository and deployment details remain reported until independently verified in this Devin organization.
 
 ## Executive Decision
 
@@ -47,6 +47,8 @@ Zyven combines Square sales and payout data, bank balances and transactions, and
 - Scenario impact of changing timing or spending
 
 AI can explain the forecast and draft options. It must not perform arithmetic, silently alter assumptions, or move money.
+
+The handoff reports that this core architecture is already substantially built. The next product milestone is real-data accuracy and customer workflow validation, not rebuilding the platform.
 
 ## Market Position
 
@@ -96,6 +98,23 @@ The durable differentiation is not “uses AI.” It is:
 - Multi-platform POS support
 - Multi-location enterprise reporting
 - Long lists of AI recommendations
+- Stripe production integration until Phase 2
+
+## Current Build Position
+
+The 2026-09-10 handoff reports:
+
+- A Next.js 15, NestJS, Prisma, Postgres, and Redis monorepo
+- Deterministic integer-cent shared math
+- Square OAuth, webhooks, backfill, payments, refunds, and payouts in Sandbox
+- Plaid Link, exchange, Transactions Sync, webhook verification, accounts, and transactions in Sandbox
+- Daily profit, runway forecasts, committed cash, and payout-versus-payroll collision detection
+- Owner approval and dismissal workflow with audit logs
+- Grounded Ask Zyven over stored metrics
+- Daily Profit Brief through Resend
+- Deployed web, API, database, and queue/cache services
+
+Square and Plaid remain in Sandbox and no live provider transaction data is reported. See `ZYVEN_BUILD_REGISTER.md` for the sanitized handoff and current operational risks.
 
 ## Trust Model
 
@@ -304,9 +323,9 @@ Review after 10 qualified interviews or at the six-week gate. Reconsider the seg
 
 ## Founder Decisions Required
 
-1. Confirm the public spelling: `Zyven` or `Zyvrn`.
-2. Confirm whether the live testimonial and quantified outcomes are real customer evidence or sandbox copy.
-3. Decide whether the next six weeks optimize for paid design partners or continued product construction.
+1. Confirm whether the live testimonial and quantified outcomes are real customer evidence or sandbox copy.
+2. Resolve the UI direction represented by open PR #25.
+3. Define “reserve credit” before it affects available-cash or runway calculations.
 
 ## Sources
 

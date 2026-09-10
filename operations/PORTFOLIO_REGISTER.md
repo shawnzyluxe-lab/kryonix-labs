@@ -9,7 +9,7 @@
 |---|---|---|---|---|
 | Kryonix Labs | Parent product studio for operator intelligence | https://kryonixlabs.com | Operating foundation | Confirm parent/venture naming and company formation path |
 | Vantav Commerce | Commerce venture whose live platform is currently branded `Prometheus OS` | https://vantavcommerce.com | Deployed beta surface; commercial and partner status unverified | Define the Vantav/Prometheus hierarchy and verify current launch dependency |
-| Zyven | Deterministic cash forecasting and cash-cliff alerts for single-location Square cafes and quick-service operators | https://thezyven.com | Sandbox/pre-launch; first design-partner cohort approved | Recruit and interview the first 10 qualified operators; standardize the product spelling |
+| Zyven | Deterministic daily profit, committed cash, and cash-cliff alerts for single-location Square cafes and quick-service operators | https://thezyven.com | Deployed sandbox foundation; no live provider data reported | Complete security cleanup, verify Plaid Trial eligibility, and recruit the first cohort |
 | Aegis Alpha | Trading research, journaling, and operator-facing wealth tools | https://aegisalphaengine.com | Active shadow research and platform development | Preserve shadow-trial and platform-layout guardrails |
 
 ## Repository Access
@@ -20,7 +20,7 @@
 |---|---|---:|---:|---:|---|
 | `shawnzyluxe-lab/kryonix-labs` | Parent site and brand kit | Yes | Yes | Yes | Read and branch-push access verified; current portfolio source of truth |
 | `shawnzyluxe-lab/EcommerceAI` | Vantav Commerce | Yes | Yes | No | Local snapshot exists; current remote access fails |
-| `shawnzyluxe-lab/zyven` | Zyven application | Yes | No | No | Repository listing exists, but Git Manager returns repository not found |
+| `shawnzyluxe-lab/zyven` | Zyven application | Yes | No | No | Rechecked 2026-09-10: listing exists, but clone and PR reads return not found; handoff reports main at `1a081de` |
 | `shawnzyluxe-lab/aegisalpha-wealth-hub` | Aegis platform | Yes | Yes | No | Local snapshot exists; current remote access fails |
 | `shawnzyluxe-lab/aegisalpha-trading-engine` | Aegis shadow research engine | Yes | Yes | No | Local snapshot exists; current remote access fails |
 | `shawnzyluxe-lab/aegisalpha-trading-journal` | Private shadow journal | Yes | No | No | Do not use a production journal for testing |
@@ -30,6 +30,7 @@
 ### Access repair required
 
 1. Synchronize this Devin organization's Git Manager access with all repositories above.
+   - Devin setting: `/settings/connections/github#github-repo-permissions`
 2. Confirm the `zyven` repository contains the work from the other Devin account and has a default branch.
 3. Verify push access only when a scoped change is ready; do not test write access by pushing disposable commits.
 4. Transfer cross-account project context using repository documents or explicit handoff files, not credentials.
@@ -48,6 +49,8 @@
 
 The Zyven session returns `403 Unauthorized` because it belongs to another Devin organization. Its output must be handed off through an exported summary, attachments, or the `zyven` repository.
 
+A sanitized CIOO handoff was received on 2026-09-10 and recorded in `ZYVEN_BUILD_REGISTER.md`. The session and repository remain independently inaccessible from this organization until access is repaired.
+
 ## Known Constraints
 
 ### Aegis
@@ -64,9 +67,17 @@ The Zyven session returns `403 Unauthorized` because it belongs to another Devin
 - Treat the parent brand as an endorser and operator, not as a reason to merge product systems.
 - Do not publish financial performance or market-size claims without traceable evidence.
 
+### Zyven
+
+- Provider environments are reported as Square Sandbox and Plaid Sandbox; no live provider transaction data is reported.
+- Rotate the production account credential disclosed in the cross-account handoff and invalidate related sessions where supported.
+- Remove the temporary Render Postgres network allowlist entry after its login task is confirmed.
+- Keep Stripe as Phase 2 until the Square and Plaid workflow is validated.
+- Do not merge ambiguous “reserve credit” into cash or runway calculations before the founder defines it.
+
 ## Naming Decisions Needed
 
-1. The founder currently calls the new venture **Zyven**, its live domain is `thezyven.com`, but the Kryonix site and brand documents call it **Zyvrn**.
+1. The founder's handoff reports that **Zyven** was selected and `thezyven.com` was purchased, but the Kryonix site and brand documents still call it **Zyvrn**; legal clearance remains pending.
 2. The founder and parent site call the commerce venture **Vantav Commerce**, while `vantavcommerce.com` presents **Prometheus OS** as the product; the intended umbrella/product relationship is not documented.
 3. The founder describes the trading venture as **Aegis**, while the parent site presents **AAE**.
 4. Public materials alternate between “product studio,” “startup,” and an investor-ready portfolio story.
@@ -76,7 +87,7 @@ Until these are resolved, use **Kryonix Labs**, **Vantav Commerce**, **Zyven**, 
 
 ## Missing Source-of-Truth Inputs
 
-- Zyven repository and session handoff
+- Independent access to and verification of the Zyven repository
 - Current Vantav launch blocker and commercial readiness
 - Aegis current shadow-trial dates and latest verdict
 - Entity state, target formation date, ownership, and fundraising intent

@@ -93,9 +93,9 @@ Preliminary search found a `Vantav Technologies LLP` and commerce products using
 
 ### Zyven / Zyvrn
 
-**Recommendation:** Choose one spelling now; use no mixed state.
+**Decision reported in the handoff:** The founder selected **Zyven** and purchased `thezyven.com`. Treat `Zyvrn` in the parent materials as stale pending a founder-approved public-copy change.
 
-If legal review supports it, prefer **Zyven** because:
+Zyven is operationally preferred because:
 
 - It matches `thezyven.com`.
 - It matches the live product.
@@ -224,7 +224,7 @@ At minimum, professional clearance should cover:
 ## Recommended Brand Decisions
 
 1. Confirm the parent architecture: endorsed products under Kryonix Labs.
-2. Select `Zyven`, `Zyvrn`, or a replacement after legal review.
+2. Complete legal review of the selected `Zyven` brand and replace stale `Zyvrn` copy only after founder approval.
 3. Treat Aegis as a Kryonix research program until a strategy earns promotion.
 4. Confirm Vantav's real current commercial status and define the relationship between Vantav Commerce and Prometheus OS.
 5. Remove or update the 60–90 day fundraising language unless it is still an active, evidence-backed objective.
