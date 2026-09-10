@@ -161,7 +161,7 @@ Reject new ventures unless one of the current products is explicitly paused and 
 ### Week 1
 
 - Confirm Vantav's actual launch blocker, connected channels, active users, and pricing readiness.
-- Verify the received Zyven handoff against the repository and repair access.
+- Verify the received Zyven architecture and deployment handoff against the now-accessible repository.
 - Approve an internal naming matrix; begin formal name review.
 - Confirm whether `Vantav LLC` exists and is the correct customer-facing contracting entity.
 - Recruit the first five interviews for each commercial venture.

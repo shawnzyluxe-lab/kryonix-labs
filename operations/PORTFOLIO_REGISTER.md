@@ -69,7 +69,9 @@ All listed public endpoints returned valid HTTPS responses on 2026-09-10. A `404
 
 The Zyven session returns `403 Unauthorized` because it belongs to another Devin organization. Its output must be handed off through an exported summary, attachments, or the `zyven` repository.
 
-A sanitized CIOO handoff was received on 2026-09-10 and recorded in `ZYVEN_BUILD_REGISTER.md`. The session and repository remain independently inaccessible from this organization until access is repaired.
+A sanitized CIOO handoff was received on 2026-09-10 and recorded in `ZYVEN_BUILD_REGISTER.md`. Repository access is now verified; cross-account sessions remain intentionally coordinated through separate work orders and standardized completion reports.
+
+The founder also has separate Kryonix website and Vantav builder sessions in the other account. Their current session URLs and states are not yet recorded. Aegis remains managed directly in this organization.
 
 ## Known Constraints
 

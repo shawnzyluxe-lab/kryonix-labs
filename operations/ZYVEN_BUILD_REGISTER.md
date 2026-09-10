@@ -117,7 +117,7 @@ Provider environments remain `SQUARE_ENV=sandbox` and `PLAID_ENV=sandbox`. No li
 - Open dependency PRs at handoff: `#1` through `#7`
 - Main reportedly includes treasury telemetry and a Vitest security update
 
-The current Devin organization still needs independent repository read and branch-push verification.
+Repository read access, the reported `main` HEAD, and PR reads are independently verified. Branch-push access will be verified only when this account has a legitimate scoped change; no disposable push test will be used.
 
 ## Current Decision Reconciliation
 

@@ -47,6 +47,20 @@ The CIOO function:
 
 The CIOO function does not infer founder approval from silence.
 
+### Builder sessions
+
+The founder's other Devin account performs scoped implementation through separate venture sessions. This account acts as the CIOO control tower: it issues numbered work orders, reviews PR and deployment evidence, records decisions, and selects the next priority.
+
+Each builder session:
+
+- Owns one venture or tightly scoped work order
+- Implements only the approved scope
+- Opens a PR and returns a standardized completion report
+- Keeps credentials, customer data, and venture context separated
+- Stops for founder decisions involving public claims, production access, legal identity, pricing, or irreversible actions
+
+Aegis remains managed directly in this account. The full protocol and handoff format are in `DEVIN_OPERATING_MODEL.md`.
+
 ### Venture owner
 
 Each venture must have one owner responsible for:
@@ -218,10 +232,10 @@ Always record:
 
 | Risk | Venture | Type | Likelihood | Impact | Mitigation | Owner | Review date | Status |
 |---|---|---|---|---|---|---|---|---|
-| Repository access is incomplete | Portfolio | Operational | High | High | Repair Git Manager scopes and verify access | Founder | Weekly | Open |
+| Repository access was incomplete | Portfolio | Operational | Low | High | All eight listed repositories were verified readable on 2026-09-10; recheck after integration changes | CIOO | Monthly | Closed |
 | Product naming is inconsistent and uncleared | Portfolio | Brand/legal | High | High | Founder naming decision plus professional review | Founder | Weekly | Open |
 | Public claims may be stale or unsupported | Portfolio | Brand/legal | Medium | High | Add evidence owner and review date; remove unsupported claims | Founder | Weekly | Open |
-| Zyven repository is still inaccessible from this Devin organization | Zyven | Operational | High | Medium | Repair Git Manager access and verify the reported main state | Founder | Weekly | Open |
+| Zyven repository was inaccessible from this Devin organization | Zyven | Operational | Low | Medium | Repository, main HEAD, and PR reads were verified on 2026-09-10 | CIOO | Monthly | Closed |
 | A Zyven production password was disclosed and is below the reported signup policy | Zyven | Security | High | High | Rotate it, invalidate related sessions, and enforce the normal policy | Founder | Immediate | Open |
 | A temporary database network allowlist entry remains active | Zyven | Security | Medium | High | Remove it after the related login work is confirmed | Founder | Immediate | Open |
 | Vantav commercial and partner status is unverified | Vantav | Commercial | Medium | High | Confirm current blocker, owner, deadline, and proof | Founder | Weekly | Open |
