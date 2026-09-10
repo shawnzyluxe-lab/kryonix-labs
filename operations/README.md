@@ -12,7 +12,7 @@ Internal source of truth for managing Kryonix Labs and its ventures.
 - `BRAND_AUDIT.md` — portfolio architecture, naming conflicts, claim audit, and preliminary name-risk screen
 - `OPPORTUNITY_PRIORITIES.md` — six-week company priorities and founder-time allocation
 - `DEVIN_OPERATING_MODEL.md` — CIOO control-tower and cross-account builder-session protocol
-- `builder-prompts/` — separate copy-paste work orders for Kryonix, Zyven, and Vantav sessions
+- `builder-prompts/` — separate copy-paste work orders and follow-ups for Kryonix, Zyven, and Vantav sessions
 
 ## Update Rules
 

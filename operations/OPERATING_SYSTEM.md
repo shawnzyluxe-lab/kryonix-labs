@@ -236,8 +236,9 @@ Always record:
 | Product naming is inconsistent and uncleared | Portfolio | Brand/legal | High | High | Founder naming decision plus professional review | Founder | Weekly | Open |
 | Public claims may be stale or unsupported | Portfolio | Brand/legal | Medium | High | Add evidence owner and review date; remove unsupported claims | Founder | Weekly | Open |
 | Zyven repository was inaccessible from this Devin organization | Zyven | Operational | Low | Medium | Repository, main HEAD, and PR reads were verified on 2026-09-10 | CIOO | Monthly | Closed |
-| A Zyven production password was disclosed and is below the reported signup policy | Zyven | Security | High | High | Rotate it, invalidate related sessions, and enforce the normal policy | Founder | Immediate | Open |
-| A temporary database network allowlist entry remains active | Zyven | Security | Medium | High | Remove it after the related login work is confirmed | Founder | Immediate | Open |
+| Zyven's disclosed password was replaced, but the founder does not possess the generated replacement | Zyven | Security | High | High | Replace it through a temporary founder-provided secret and verify owner login | Founder | Immediate | Open |
+| Pre-rotation Zyven JWTs remain valid for up to seven days | Zyven | Security | Medium | High | Rotate `JWT_SECRET` across affected production services and verify old-token rejection | Builder | Immediate | Open |
+| A temporary database network allowlist entry remained active | Zyven | Security | Low | High | Builder reported removal and an empty allowlist on 2026-09-10 | CIOO | Monthly | Closed |
 | Vantav commercial and partner status is unverified | Vantav | Commercial | Medium | High | Confirm current blocker, owner, deadline, and proof | Founder | Weekly | Open |
 | Vantav legal pages name an unverified `Vantav LLC` entity | Vantav | Legal | High | High | Confirm the entity and obtain qualified review before accepting contracts or payments | Founder | Immediate | Open |
 | Aegis trial could be invalidated by unapproved changes | Aegis | Research | Low | High | Preserve all active-trial guardrails | Founder | Every review | Controlled |

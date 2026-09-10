@@ -133,12 +133,22 @@ The latest founder instruction supersedes conflicting older handoff text.
 
 ## Immediate Security Actions
 
-1. Rotate the production account password disclosed in the handoff.
-2. Invalidate existing sessions or tokens tied to that password where supported.
-3. Bring the account under the same minimum password policy as normal signup.
-4. Remove the temporary Render Postgres network allowlist entry after the related login work is confirmed.
-5. Do not copy production credentials into repository documents, knowledge notes, tickets, or test commands.
-6. Confirm that provider webhook verification, token encryption, tenant isolation, and audit logging are exercised by CI or integration tests before live customer data.
+Builder-reported outcome from `ZYV-20260910-001` on 2026-09-10:
+
+- The disclosed password was replaced with a random 24-character credential and production login succeeded.
+- The founder does not possess that generated password, so account ownership recovery remains open.
+- The temporary Render Postgres allowlist entry was removed and the builder reported the allowlist as empty.
+- The repository, open PRs, and builder-session filesystem were scanned for the disclosed credential; no repository occurrence was reported and local plaintext artifacts were deleted.
+- Focused auth and password tests, workspace typecheck, and lint reportedly passed.
+- Existing JWTs remain valid for up to seven days because authentication uses stateless HS256 tokens without per-user revocation.
+
+Founder decision:
+
+1. Rotate `JWT_SECRET` now to invalidate all current tokens.
+2. Defer `tokenVersion` and broader auth code hardening.
+3. Replace the unknown generated password with a founder-chosen value supplied through a temporary secret-input flow and stored by the founder in an independent password manager.
+4. Do not copy production credentials into repository documents, knowledge notes, tickets, or test commands.
+5. Confirm that provider webhook verification, token encryption, tenant isolation, and audit logging are exercised by CI or integration tests before live customer data.
 
 ## Revised Milestones
 
