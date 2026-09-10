@@ -15,7 +15,7 @@ Alternates:
 - "AI that drafts. You decide."
 
 ## Positioning statement
-Kryonix Labs is an independent product studio building AI-powered tools that help small operators see clearly and act with confidence — across online commerce, small-business finance and disciplined trading.
+Kryonix Labs is an independent product studio building AI-powered tools that help small operators see clearly and act with confidence — across online commerce, small-business finance, disciplined trading and personal life.
 
 ## Product family
 | Product | Category | One-liner |
@@ -23,6 +23,7 @@ Kryonix Labs is an independent product studio building AI-powered tools that hel
 | **Vantav Commerce** | Commerce | AI operations platform for multi-channel merchants. |
 | **Zyvrn** | Small-business finance | Your AI-powered operations and treasury assistant for Square sellers. |
 | **AAE** | Trading research | A disciplined research and journaling workflow for serious individual traders. |
+| **Kryonix Life** | Personal OS | Your private daily brief for wellness, routines, bills, appointments, travel and personal inbox — with a strict personal/work boundary. |
 
 ## Voice
 - Confident, calm, precise. No hype.
@@ -31,7 +32,7 @@ Kryonix Labs is an independent product studio building AI-powered tools that hel
 - Honest about status: "early access", "waitlist", "research tool" where applicable.
 
 ### Words we use
-AI-powered · assistant · daily brief · clarity · runway · money moves · journal · disciplined · early access
+AI-powered · assistant · daily brief · clarity · runway · money moves · journal · disciplined · early access · personal brief · wellness · routines
 
 ### Words we avoid (customer-facing)
 autonomous · COO / fractional COO · engine internals (orchestration, agents, pipelines) · signals / picks / guaranteed returns · any implied investment advice
@@ -54,7 +55,7 @@ autonomous · COO / fractional COO · engine internals (orchestration, agents, p
 | Violet | `#7C5CFF` | Accent, focus |
 | Gradient | Cyan → Violet at 120° | CTAs, headline highlight, logo |
 
-Product accents: Vantav = Cyan, Zyvrn = Violet, AAE = Amber `#FFC97A`.
+Product accents: Vantav = Cyan, Zyvrn = Violet, AAE = Amber `#FFC97A`, Kryonix Life = Mint `#7DFFC2`.
 
 ## Typography
 - **Inter** (Google Fonts). Headlines 700–800, tight letter-spacing (−0.02em). Body 400, 1.6 line-height.

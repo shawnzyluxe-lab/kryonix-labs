@@ -2,7 +2,7 @@
 
 Live site: https://kryonixlabs.com
 
-Static landing site for Kryonix Labs, the studio behind Vantav Commerce, Zyvrn and AAE.
+Static landing site for Kryonix Labs, the studio behind Vantav Commerce, Zyvrn, AAE and Kryonix Life.
 
 - `index.html`, `styles.css` — main landing page
 - `investor.html` — investor snapshot page

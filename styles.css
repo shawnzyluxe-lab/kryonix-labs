@@ -8,6 +8,7 @@
   --cyan: #72F2FF;
   --violet: #8C6FFF;
   --amber: #FFC46D;
+  --life: #7DFFC2;
   --grad: linear-gradient(120deg, var(--cyan), var(--violet));
   --radius: 22px;
 }
@@ -107,11 +108,13 @@ section > h2, section > .sub { text-align: center; }
 .card:nth-child(1)::before { background: var(--cyan); box-shadow: 0 0 18px var(--cyan); }
 .card:nth-child(2)::before { background: var(--violet); box-shadow: 0 0 18px var(--violet); }
 .card:nth-child(3)::before { background: var(--amber); box-shadow: 0 0 18px var(--amber); }
+.card:nth-child(4)::before { background: var(--life); box-shadow: 0 0 18px var(--life); }
 .icon { width: 52px; height: 52px; border-radius: 14px; display: grid; place-items: center; margin-bottom: 1.4rem; }
 .icon svg { width: 28px; height: 28px; }
 .icon-commerce { background: rgba(114, 242, 255, .1); color: var(--cyan); }
 .icon-finance { background: rgba(140, 111, 255, .12); color: #BFB2FF; }
 .icon-trading { background: rgba(255, 196, 109, .12); color: #FFD59A; }
+.icon-life { background: rgba(125, 255, 194, .1); color: #7DFFC2; }
 .tag { font-size: .72rem; text-transform: uppercase; letter-spacing: .16em; color: var(--muted); }
 .card h3 { margin: .35rem 0 .7rem; }
 .card p { color: var(--muted); margin-bottom: 1.2rem; }
