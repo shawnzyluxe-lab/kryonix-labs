@@ -7,6 +7,7 @@ Static landing site for Kryonix Labs, the technology startup behind Vantav Comme
 - `index.html`, `styles.css` — main landing page
 - `investor.html` — investor snapshot page
 - `brand/` — logo, wordmark, brand guidelines (`BRAND.md`), one-pager (`ONE_PAGER.md`) and investor one-pager (`INVESTOR_ONE_PAGER.md`)
+- `operations/` — internal portfolio register, operating cadence, venture direction and brand decisions
 
 ## Deploy
 
