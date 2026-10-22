@@ -1,0 +1,23 @@
+name = "kryonix-inquiry"
+main = "worker.js"
+compatibility_date = "2024-09-23"
+workers_dev = false
+routes = [{ pattern = "inquiry.kryonixlabs.com", custom_domain = true }]
+
+[triggers]
+crons = ["17 3 * * *"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "kryonix-inquiries"
+database_id = "fc5abc1e-8f79-4161-8e04-cede0ddbe13c"
+
+[[send_email]]
+name = "NOTIFY"
+# destination_address = the verified company inbox (set at deploy time; not stored in the repo)
+
+[vars]
+NOTIFY_FROM = "inquiries@kryonixlabs.com"
+ALLOWED_ORIGINS = "https://kryonixlabs.com,https://www.kryonixlabs.com"
+TURNSTILE_HOSTNAMES = "kryonixlabs.com,www.kryonixlabs.com"
+# NOTIFY_TO is set at deploy time. TURNSTILE_SECRET is a Worker secret: wrangler secret put TURNSTILE_SECRET

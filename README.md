@@ -2,7 +2,7 @@
 
 Live site: https://kryonixlabs.com
 
-Static landing site for Kryonix Labs, the technology startup behind Vantav Commerce, Zyven and AAE.
+Static landing site for Kryonix Labs, the decision-intelligence technology company behind Zyven (early access), Aegis Alpha (internal research system) and Vantav (paused).
 
 - `index.html`, `styles.css` — main landing page
 - `investor.html` — investor snapshot page
