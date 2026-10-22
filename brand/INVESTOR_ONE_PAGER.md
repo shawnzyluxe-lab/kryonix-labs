@@ -1,71 +1,34 @@
 # Kryonix Labs — Investor One-Pager
 
 ## 1. The opportunity
-Small operators are flying blind. Independent e-commerce brands, Square-based local businesses, individual traders and busy people running a life all run on fragmented data. Sales, cash, banking, trades, routines and decisions sit in different apps, so the questions that matter most — "Did I make money today?", "How long is my runway?", "What should I trade next?", "What does my personal day need?" — take hours to answer, if they get answered at all.
+Organizations make more consequential decisions, faster, across more teams and tools than ever. The evidence behind those decisions is scattered, commitments drift between handoffs, authority blurs as software takes on more work, and few organizations check whether a decision produced the result it promised. Decision intelligence closes that loop.
 
-Large companies solve this with analysts and dashboards. Small operators don't have that. They need AI assistants that prepare the work and let them make the call.
+## 2. Who we are
+Kryonix Labs is an independent enterprise decision-intelligence technology company. We build intelligent systems that help organizations navigate complex operational decisions through evidence, coordination, human authority and verified outcomes. We run the company on our own systems first.
 
-## 2. What we build
-Kryonix Labs is an independent product studio building AI-powered tools for four high-friction operator workflows:
+## 3. Portfolio
+### Zyven — priority commercial product
+Cash-flow intelligence for businesses that take payments with Square, using read-only connections to Square and business bank accounts. Recommended cash actions for owner approval are in development.
 
-### Vantav Commerce — Commerce
-AI operations for multi-channel merchants. Vantav replaces spreadsheet chaos with one profit-first dashboard, unifying Shopify, TikTok Shop, Amazon and eBay, and surfacing AI-drafted actions with a human approval gate.
+**Stage:** early access by application for a limited founding cohort.
 
-**Stage:** live, at partner approval stage.
+### Kryonix Intelligence and Kyra — internal systems
+Kryonix Intelligence is the company's decision-intelligence core (objectives, evidence, commitments, approvals, outcomes). Kyra is the Founder's executive assistant built on it. Both run Kryonix Labs and are not sold.
 
-### Zyvrn — Small-business finance
-AI-powered operations and treasury assistant for Square sellers. Connects POS and business banking to give owners a true daily profit number, a cash-runway forecast and AI-drafted money moves they can approve in one tap.
+### Aegis Alpha — internal research system
+Research and evidence system for market analysis. Not an investment service and not offered commercially.
 
-**Stage:** pre-MVP, waitlist open.
+### Vantav — paused
+Commerce intelligence for online-store operators. Paused while the company focuses on Zyven; not accepting new customers.
 
-### AAE — Trading research
-A disciplined research and journaling workflow for serious individual traders. AAE scans a universe, prepares every number a trade needs and keeps an honest, automated journal of market, ideas and decisions. Human-in-the-loop by design.
+## 4. Design principle
+Our systems prepare and recommend; responsible people approve; outcomes are verified. Nothing consequential runs without human approval.
 
-**Stage:** internal tool, coming soon.
-
-### Kryonix Life — Personal OS
-Your private daily brief for wellness, routines, bills, appointments, travel and personal inbox. Kryonix Life brings the same AI drafting and human-approval pattern to personal life, with a strict personal/work boundary. We will not set a launch date until we validate which personal workflows people want.
-
-**Stage:** pre-product; waitlist open.
-
-## 3. The model
-Each product starts as a focused, paid SaaS. Common platform: AI-drafted insights, one-tap approvals, and a daily brief that turns scattered data into a short list of actions worth taking — for work and life.
-
-- **Vantav:** tiered SaaS for multi-channel merchants + AI operations add-ons.
-- **Zyvrn:** subscription per connected location.
-- **AAE:** freemium research tier + paid journal/automation plan.
-- **Kryonix Life:** free waitlist now; consumer subscription once the right personal workflows are validated.
-
-All four share one design principle: **AI drafts, human decides.** Nothing runs on autopilot, which keeps risk low and trust high.
-
-## 4. Traction
-- **Vantav Commerce:** live operations platform in production; AI features staged for launch pending partner approval.
-- **Zyvrn:** technical foundation built; pre-launch waitlist and brand in place.
-- **AAE:** research engine operational in shadow mode; not yet offered commercially.
-- **Kryonix Life:** pre-product; waitlist open; no launch date until workflow validation.
-
-## 5. The market
-- **E-commerce operations:** $10B+ and growing, driven by independent brands seeking unified profit visibility and AI-assisted decision making.
-- **SMB finance/operations:** massive underserved segment on Square; demand is high for daily cash visibility.
-- **Retail trading tools:** large market, but we are entering carefully as an education/journal product, not a signal service.
-- **Personal operations / wellness tech:** a growing consumer market for a private, AI-assisted daily brief that respects work/life boundaries.
-
-## 6. Team
+## 5. Team
 **Shawn-J Johnson** — Founder & CEO
-Operator, builder and independent founder. Started Kryonix Labs from the problems the products now solve: scaling an online brand, keeping a small business solvent and trading with discipline.
+Operator, builder and independent founder.
 
-## 7. What we need
-- **Capital:** Seed/pre-seed round to move Vantav from partner approval to first paid cohort, and Zyvrn from pre-MVP to closed beta.
-- **Partnerships:** introductions to Shopify / Square ecosystem partners and independent brand operators for Vantav pilot expansion.
-- **Talent:** senior full-stack engineer and a growth/operations lead.
-- **Validation:** waitlist sign-ups and user research to determine which Kryonix Life personal workflows deserve a full product.
+## 6. Contact
+shawnj@kryonixlabs.com · https://kryonixlabs.com
 
-## 8. The ask
-Investors interested in AI-enabled SMB tools and disciplined founders who ship. Looking to close an initial round in the next 60–90 days.
-
----
-
-**Contact**
-shawnj@kryonixlabs.com · https://kryonixlabs.com/investor.html
-
-*AAE is currently an internal research and journaling tool. Nothing produced by Kryonix Labs is investment advice.*
+*Aegis Alpha is an internal research system. Nothing produced by Kryonix Labs is investment advice.*

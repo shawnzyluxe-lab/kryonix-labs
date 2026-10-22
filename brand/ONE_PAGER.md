@@ -1,47 +1,46 @@
 # Kryonix Labs
 ### Intelligence, engineered.
+*Where complex decisions become coordinated action.*
 
 ---
 
+## Who we are
+Kryonix Labs is an independent enterprise decision-intelligence technology company. We build intelligent systems that help organizations navigate complex operational decisions through evidence, coordination, human authority and verified outcomes.
+
 ## The problem
-Small operators — independent online brands, Square-based local businesses, serious individual traders and busy people running a life — run on scattered data. Sales, cash, trades, routines and the numbers that actually matter (profit today, runway, what to do next, what your personal day needs) are never in one place. Large companies solve this with analysts and dashboards. Small operators solve it at midnight with a spreadsheet, or not at all.
+Organizations make more consequential decisions, faster, across more teams and tools than ever. The decision is rarely the hard part; everything around it is:
+- **Evidence is scattered** across systems, documents and people's memory.
+- **Commitments drift**: owners, deadlines and follow-ups slip between meetings and handoffs.
+- **Authority is unclear** as software takes on more of the work.
+- **Outcomes go unchecked**, so the same mistakes repeat.
 
-## What we do
-Kryonix Labs is an independent product studio building AI-powered tools that turn messy, scattered data into a clear daily picture and a short list of things worth doing. Our products prepare the work; our customers make the decisions.
+## Our approach
+One continuous record, from evidence to outcome:
+1. **Evidence.** Every recommendation carries the data and assumptions behind it; missing evidence is stated, not guessed.
+2. **Coordination.** Decisions connect to the objectives, owners, commitments and follow-ups they create.
+3. **Human authority.** Our systems prepare and recommend; responsible people approve.
+4. **Verified outcomes.** Results are checked against what each decision promised.
 
-## Our products
+## Portfolio
+**Zyven** — *commercial product, early access by application*
+Cash-flow intelligence for businesses that take payments with Square. Read-only connections to Square and business bank accounts give owners a clear view of what the business kept, how much cash it has and what's coming due. In development: recommended cash actions the owner reviews and approves. https://thezyven.com
 
-**Vantav Commerce** — *Commerce*
-The AI operations platform for multi-channel merchants. Vantav unifies Shopify, TikTok Shop, Amazon and eBay into one profit-first dashboard, then surfaces margin alerts, demand forecasts and recommended actions you approve before they execute.
+**Kryonix Intelligence** — *internal system*
+The company's decision-intelligence core: one record of objectives, evidence, commitments, approvals and outcomes. Runs Kryonix Labs; not offered commercially.
 
-**Zyvrn** — *Small-business finance*
-Your AI-powered operations and treasury assistant for Square sellers. Zyvrn connects point-of-sale and business banking to deliver a true daily profit number, a cash-runway forecast and AI-drafted money moves owners can approve in one tap. Ask your business anything.
+**Kyra** — *internal system*
+The Founder's executive assistant, built on Kryonix Intelligence. Organizes priorities, prepares decisions and follows up on commitments; approvals stay with the Founder. Not offered commercially.
 
-**AAE** — *Trading research*
-A disciplined research and journaling workflow for serious individual traders. AAE scans a universe, prepares every number a trade needs, and keeps an honest, automated journal of the market, the ideas and the decisions. Human-in-the-loop by design — the trader always makes the call.
+**Aegis Alpha** — *internal research system*
+Research and evidence system for market analysis, with a structured record of hypotheses, decisions and outcomes. Not an investment service and not available to the public.
 
-**Kryonix Life** — *Personal OS*
-Your private daily brief for wellness, routines, bills, appointments, travel and personal inbox. Kryonix Life connects your personal world into one human-controlled dashboard — strictly separated from your work data, with no launch date until we validate which personal workflows people want.
+**Vantav** — *paused*
+Commerce intelligence for online-store operators. Development is paused while the company focuses on Zyven; not accepting new customers.
 
-## How we're different
-1. **Clarity first.** One number that matters, one screen that explains it.
-2. **AI that drafts, humans that decide.** Nothing happens without approval.
-3. **Honest by default.** We measure our own results and show them to customers.
-4. **Secure and private.** Trusted data connections, encryption in transit and at rest, and data is never sold.
-
-## Who it's for
-- Independent e-commerce brands doing $10k–$1M/yr online.
-- Local businesses running on Square that want to know, every morning, whether they made money yesterday.
-- Individual traders who want process and accountability, not tips.
-- Individuals who want a private, daily personal brief that keeps wellness, routines and life admin in one place.
-
-## Status
-- **Vantav Commerce** — live operations platform in production; AI features staged for launch pending partner approval.
-- **Zyvrn** — pre-launch; waitlist open.
-- **AAE** — research tool; early access by invitation.
-- **Kryonix Life** — pre-product; waitlist open; no launch date promised until workflow validation.
+## Leadership
+**Shawn-J Johnson** — Founder & CEO
 
 ## Get in touch
-shawnj@kryonixlabs.com · https://kryonixlabs.com
+Business, enterprise and partnership inquiries: shawnj@kryonixlabs.com · https://kryonixlabs.com
 
-*AAE is a research and journaling tool. Nothing produced by Kryonix Labs is investment advice.*
+*Aegis Alpha is an internal research system. Nothing produced by Kryonix Labs is investment advice.*
