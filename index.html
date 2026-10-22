@@ -14,6 +14,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -176,7 +177,7 @@
         <p class="kicker">Enterprise inquiries</p>
         <h2>Start a conversation with Kryonix Labs</h2>
         <p>Tell us about your organization and the decisions you'd like to improve. The Kryonix Labs team will follow up.</p>
-        <form class="inquiry" id="inquiry" data-endpoint="" novalidate>
+        <form class="inquiry" id="inquiry" data-endpoint="https://inquiry.kryonixlabs.com/inquiry" novalidate>
           <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" autocomplete="name" required maxlength="120"></div>
           <div class="field"><label for="f-email">Work email</label><input id="f-email" name="email" type="email" autocomplete="email" required maxlength="200"></div>
           <div class="field"><label for="f-org">Organization</label><input id="f-org" name="organization" autocomplete="organization" required maxlength="160"></div>
@@ -191,9 +192,10 @@
             </select></div>
           <div class="field field-wide"><label for="f-msg">Your decision challenge, at a high level</label><textarea id="f-msg" name="challenge" rows="4" required maxlength="2000"></textarea><span class="hint">Please don't include confidential information.</span></div>
           <div class="hp" aria-hidden="true"><label for="f-web">Website</label><input id="f-web" name="website" tabindex="-1" autocomplete="off"></div>
+          <div class="field-wide cf-turnstile" data-sitekey="0x4AAAAAAFgZSBF7W64GXmmj" data-theme="dark" data-response-field="false"></div>
           <div class="field-wide form-foot">
             <button class="btn" type="submit">Send inquiry</button>
-            <p class="fine" id="inquiry-status" role="status">Online inquiries open soon. Until then, email <a href="mailto:contact@kryonixlabs.com">contact@kryonixlabs.com</a>.</p>
+            <p class="fine" id="inquiry-status" role="status" aria-live="polite">Prefer email? Write to <a href="mailto:contact@kryonixlabs.com">contact@kryonixlabs.com</a>.</p>
           </div>
           <p class="fine field-wide privacy">We use the details you send only to respond to your inquiry. They're stored securely, never sold, and deleted on request: email <a href="mailto:contact@kryonixlabs.com">contact@kryonixlabs.com</a>.</p>
         </form>
@@ -282,8 +284,31 @@
       var form = document.getElementById('inquiry');
       if (!form) return;
       var button = form.querySelector('button[type="submit"]');
+      var status = document.getElementById('inquiry-status');
+      var fallback = ' Please email <a href="mailto:contact@kryonixlabs.com">contact@kryonixlabs.com</a> instead.';
       if (!form.dataset.endpoint) { button.disabled = true; return; }
-      form.addEventListener('submit', function (e) { e.preventDefault(); });
+      function say(html) { status.innerHTML = html; }
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        if (!form.checkValidity()) { form.reportValidity(); return; }
+        var token = window.turnstile ? window.turnstile.getResponse() : '';
+        if (!token) { say('Please complete the verification check above.'); return; }
+        var data = new FormData(form);
+        var payload = { turnstileToken: token };
+        ['name', 'email', 'organization', 'category', 'challenge', 'website'].forEach(function (k) { payload[k] = data.get(k) || ''; });
+        button.disabled = true;
+        say('Sending…');
+        fetch(form.dataset.endpoint, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(payload) })
+          .then(function (res) { return res.json().then(function (body) { return { ok: res.ok && body.ok, body: body }; }); })
+          .then(function (r) {
+            if (r.ok) { form.reset(); say('Thank you. Your inquiry has been received, and the Kryonix Labs team will follow up.'); return; }
+            if (r.body && r.body.error === 'invalid_fields') say('Please check the highlighted details and try again.');
+            else say('We couldn’t send your inquiry.' + fallback);
+            button.disabled = false;
+          })
+          .catch(function () { say('We couldn’t send your inquiry.' + fallback); button.disabled = false; })
+          .finally(function () { if (window.turnstile) window.turnstile.reset(); });
+      });
     })();
   </script>
 </body>
