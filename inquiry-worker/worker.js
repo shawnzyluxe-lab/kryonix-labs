@@ -1,10 +1,6 @@
 import { EmailMessage } from "cloudflare:email";
 
 const CATEGORIES = [
-  "Custom AI or software system",
-  "Automation or integration",
-  "Operational or decision intelligence",
-  "Not sure yet",
   "Enterprise decision intelligence",
   "Partnership",
   "Research collaboration",
@@ -50,7 +46,7 @@ async function verifyTurnstile(token, ip, env) {
 
 async function notify(env, row) {
   const body = [
-    "A new project inquiry was submitted on kryonixlabs.com.",
+    "A new enterprise inquiry was submitted on kryonixlabs.com.",
     "",
     `Reference: ${row.id}`,
     `Received: ${row.created_at}`,
@@ -59,13 +55,13 @@ async function notify(env, row) {
     `Organization: ${row.organization}`,
     `Category: ${row.category}`,
     "",
-    "Business challenge:",
+    "Decision challenge:",
     row.challenge,
   ].join("\r\n");
   const raw = [
     `From: Kryonix Labs Inquiries <${env.NOTIFY_FROM}>`,
     `To: <${env.NOTIFY_TO}>`,
-    `Subject: New project inquiry: ${row.category}`,
+    `Subject: New enterprise inquiry: ${row.category}`,
     `Message-ID: <${row.id}@kryonixlabs.com>`,
     `Date: ${new Date().toUTCString()}`,
     "MIME-Version: 1.0",
