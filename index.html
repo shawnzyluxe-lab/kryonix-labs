@@ -57,7 +57,7 @@
           <h2>Technology and intelligence shaped by your business.</h2>
           <p class="sub">You do not need a complete technical specification to begin. We start with your goals, constraints, and the problem that needs solving.</p>
         </header>
-        <div class="tiles tiles-3">
+        <div class="tiles tiles-4">
           <article class="tile"><h3>Custom AI &amp; Software Systems</h3><p>Design and develop custom software, AI-enabled applications, internal tools, and integrations based on your organization's requirements.</p></article>
           <article class="tile"><h3>Business Process Automation &amp; Integration</h3><p>Evaluate repetitive workflows, disconnected tools, and manual handoffs, then implement practical automation and integration where it adds value.</p></article>
           <article class="tile"><h3>Operational &amp; Decision Intelligence</h3><p>Investigate business challenges, evaluate evidence and gaps, identify options, and help implement and verify appropriate solutions.</p></article>
@@ -75,7 +75,7 @@
         </header>
         <ol class="steps">
           <li><span class="num">01</span><h4>Share your challenge</h4><p>Tell us about your business and what you want to improve. Avoid confidential details in the initial inquiry.</p></li>
-          <li><span class="num">02</span><h4>Requirements review</h4><p>Our team uses a structured, intelligence-supported review to identify relevant questions and missing information.</p></li>
+          <li><span class="num">02</span><h4>Requirements review</h4><p>Our process is designed to identify relevant questions and missing information before any proposal.</p></li>
           <li><span class="num">03</span><h4>Consultation</h4><p>We follow up where there is a potential fit to discuss goals, constraints, and options.</p></li>
           <li><span class="num">04</span><h4>Proposal and agreement</h4><p>We discuss scope, approach, and commercial terms before any engagement is accepted.</p></li>
           <li><span class="num">05</span><h4>Delivery and verification</h4><p>For accepted projects, we coordinate implementation and evaluate deliverables against agreed requirements.</p></li>
@@ -135,26 +135,23 @@
           <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" autocomplete="name" required maxlength="120"></div>
           <div class="field"><label for="f-email">Work email</label><input id="f-email" name="email" type="email" autocomplete="email" required maxlength="200"></div>
           <div class="field"><label for="f-org">Organization</label><input id="f-org" name="organization" autocomplete="organization" required maxlength="160"></div>
-          <div class="field"><label for="f-cat">What do you need help with?</label>
+          <div class="field"><label for="f-cat">Inquiry category</label>
             <select id="f-cat" name="category" required>
               <option value="">Select a category</option>
-              <option>Custom AI or software system</option>
-              <option>Automation or integration</option>
-              <option>Operational or decision intelligence</option>
-              <option>Not sure yet</option>
+              <option>Enterprise decision intelligence</option>
               <option>Partnership</option>
               <option>Research collaboration</option>
               <option>Investor relations</option>
               <option>Other</option>
             </select></div>
-          <div class="field field-wide"><label for="f-msg">Describe your challenge</label><textarea id="f-msg" name="challenge" rows="4" required maxlength="2000"></textarea><span class="hint">Please do not include passwords, financial account details, or confidential business information.</span></div>
+          <div class="field field-wide"><label for="f-msg">What problem are you trying to solve?</label><textarea id="f-msg" name="challenge" rows="4" required maxlength="2000"></textarea><span class="hint">Please do not include passwords, financial account details, or confidential business information.</span></div>
           <div class="hp" aria-hidden="true"><label for="f-web">Website</label><input id="f-web" name="website" tabindex="-1" autocomplete="off"></div>
           <div class="field-wide cf-turnstile" data-sitekey="0x4AAAAAAFgZSBF7W64GXmmj" data-theme="dark" data-response-field="false"></div>
           <div class="field-wide form-foot">
             <button class="btn" type="submit">Submit project inquiry</button>
             <p class="fine" id="inquiry-status" role="status" aria-live="polite">Prefer email? Write to <a href="mailto:contact@kryonixlabs.com">contact@kryonixlabs.com</a>.</p>
           </div>
-          <p class="fine field-wide privacy">We use the details you send to review and respond to your inquiry. Submitting does not create a service agreement or guarantee acceptance or pricing. For privacy or deletion requests, email <a href="mailto:contact@kryonixlabs.com">contact@kryonixlabs.com</a>.</p>
+          <p class="fine field-wide privacy">We use the details you send only to respond to your inquiry. They\'re stored securely, never sold, and deleted on request: email <a href="mailto:contact@kryonixlabs.com">contact@kryonixlabs.com</a>.</p>
         </form>
         <div class="paths single">
           <a class="path" href="https://thezyven.com/apply">
@@ -205,7 +202,7 @@
           <article class="card card-vantav">
             <span class="tag">Commerce · Paused</span>
             <h3>Vantav</h3>
-            <p>Commerce intelligence for online-store operators. Development is paused while the company focuses on Zyven.</p>
+            <p>Commerce intelligence for online-store operators. Development is paused.</p>
           </article>
         </div>
         <p class="fine center">Kryonix Intelligence and Kyra run Kryonix Labs internally and are not offered as commercial products.</p>
@@ -258,7 +255,7 @@
         fetch(form.dataset.endpoint, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(payload) })
           .then(function (res) { return res.json().then(function (body) { return { ok: res.ok && body.ok, body: body }; }); })
           .then(function (r) {
-            if (r.ok) { form.reset(); say('Thank you. Your inquiry was received (reference: ' + String(r.body.reference || 'unavailable').replace(/[^a-zA-Z0-9-]/g, '') + '). Our team will review it; submitting does not guarantee a response or acceptance.'); return; }
+            if (r.ok) { form.reset(); say('Thank you. Your inquiry has been received. We may contact you about next steps.'); return; }
             if (r.body && r.body.error === 'invalid_fields') say('Please check the highlighted details and try again.');
             else say('We couldn’t send your inquiry.' + fallback);
             button.disabled = false;
