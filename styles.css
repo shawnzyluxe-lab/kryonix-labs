@@ -203,7 +203,7 @@ footer .fine { margin: 0; max-width: 42rem; }
 .checks strong { color: var(--text); font-weight: 600; }
 .steps { list-style: none; padding: 0; margin: 0; display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); }
 .steps li { padding: 1.5rem; border: 1px solid var(--line); border-radius: 18px; background: var(--card); }
-.steps h4 { font-size: 1.05rem; margin: .4rem 0 .4rem; }
+.steps h3 { font-size: 1.05rem; margin: .4rem 0 .4rem; }
 .steps p { color: var(--muted); font-size: .95rem; margin: 0; }
 .steps .num, .flow .num { color: var(--cyan); font-weight: 700; font-size: .8rem; letter-spacing: .14em; }
 .inquiry { display: grid; gap: 1rem 1.1rem; grid-template-columns: repeat(2, minmax(0, 1fr)); text-align: left; margin: 1.8rem 0 1.4rem; }
