@@ -9,7 +9,7 @@ const CATEGORIES = [
 ];
 const LIMITS = { name: 120, email: 200, organization: 160, challenge: 2000 };
 const EMAIL_RE = /^[^\s@<>()",;:\\]+@[^\s@<>()",;:\\]+\.[^\s@<>()",;:\\]{2,}$/;
-const RETENTION_DAYS = 730;
+const RETENTION_DAYS = 365;
 
 function json(body, status, origin) {
   const headers = { "content-type": "application/json; charset=utf-8", "cache-control": "no-store" };
