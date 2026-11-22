@@ -112,6 +112,8 @@ section > h2, section > .sub { text-align: center; }
 .tile { padding: 1.7rem; border: 1px solid var(--line); border-radius: 18px; background: rgba(15, 20, 35, .55); display: flex; flex-direction: column; }
 .tile h3 { font-size: 1.15rem; margin-bottom: .55rem; }
 .tile p { color: var(--muted); font-size: .97rem; margin: 0; }
+.tile-list { color: var(--muted); font-size: .95rem; margin: 0; padding-left: 1.1rem; }
+.tile-list li { margin: .35rem 0; }
 .tile-app { border-top: 2px solid rgba(140, 111, 255, .45); }
 .via { margin-top: auto; padding-top: 1.2rem; font-size: .78rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--cyan); }
 
