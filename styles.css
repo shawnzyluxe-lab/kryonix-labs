@@ -222,4 +222,28 @@ footer .fine { margin: 0; max-width: 42rem; }
 .btn:disabled { opacity: .5; cursor: not-allowed; transform: none; box-shadow: none; }
 .privacy { margin-top: 0; }
 .paths.single { grid-template-columns: 1fr; }
-@media (max-width: 640px) { .inquiry { grid-template-columns: 1fr; } }
+@media (max-width: 640px) { .inquiry { grid-template-columns: minmax(0, 1fr); } }
+.cf-turnstile { max-width: 100%; overflow: hidden; }
+
+/* Commercial cleanup: pilot status, offer, three-step process */
+.pilot { max-width: 40rem; margin: 2rem auto 0; font-size: .92rem; color: var(--muted); padding: .75rem 1.1rem; border: 1px solid rgba(125, 255, 194, .28); border-radius: 14px; background: rgba(125, 255, 194, .05); }
+.pilot strong, .pilot-fine strong { color: var(--text); font-weight: 600; }
+.pilot-fine { margin-top: 1.6rem; max-width: 46rem; }
+.offer { display: grid; gap: 1.5rem; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); align-items: start; }
+.offer-card { padding: 2rem; border-radius: var(--radius); border: 1px solid rgba(140, 111, 255, .35); background: linear-gradient(150deg, rgba(140, 111, 255, .14), rgba(114, 242, 255, .05) 65%, rgba(15, 20, 35, .9)); }
+.price { font-size: clamp(2.4rem, 5vw, 3.2rem); font-weight: 800; letter-spacing: -0.03em; margin: .3rem 0 1.2rem; line-height: 1; }
+.offer-card .checks { margin-bottom: 1.8rem; }
+.offer-side .minor { margin-top: 0; margin-bottom: 1rem; font-size: .85rem; color: var(--cyan); }
+.offer-side .minor + .receive { margin-bottom: 2rem; }
+.receive { display: grid; gap: 1rem; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.receive > div { padding: 1.3rem; border: 1px solid var(--line); border-radius: 16px; background: var(--card); }
+.receive h4 { font-size: 1rem; margin: 0 0 .4rem; }
+.receive p { color: var(--muted); font-size: .93rem; margin: 0; }
+.after { list-style: none; padding: 0; margin: 0; display: grid; gap: .9rem; }
+.after li { color: var(--muted); font-size: .96rem; padding-left: 1rem; border-left: 2px solid rgba(114, 242, 255, .35); }
+.after strong { color: var(--text); font-weight: 600; }
+.steps-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.boundary { margin-top: 2rem; max-width: 46rem; }
+.grid-1 { grid-template-columns: 1fr; }
+@media (max-width: 960px) { .offer { grid-template-columns: 1fr; } }
+@media (max-width: 760px) { .receive, .steps-3 { grid-template-columns: 1fr; } }
