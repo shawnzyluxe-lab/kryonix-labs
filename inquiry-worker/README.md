@@ -12,7 +12,7 @@ Receives the enterprise inquiry form on kryonixlabs.com and runs on the existing
 ## Privacy, retention and deletion
 
 - The form asks visitors not to include confidential information, and collects only name, work email, organization, category and a high-level challenge.
-- Retention: a daily cron trigger (03:17 UTC) deletes inquiries older than 730 days.
+- Retention: a daily cron trigger (03:17 UTC) deletes inquiries older than 365 days (12 months; candidate policy for non-engaged inquiries, pending Founder and legal approval).
 - Deletion on request: `DELETE FROM inquiries WHERE email = '<address>';` in the D1 console, then reply to confirm.
 - Access: limit Cloudflare account membership to people who handle enterprise inquiries.
 
