@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Company — Kryonix Labs</title>
+  <meta name="description" content="Kryonix Labs is a decision-intelligence company. We help businesses understand operational and technology choices, decide what should happen next and check whether it worked.">
+  <meta property="og:title" content="Company — Kryonix Labs">
+  <meta property="og:description" content="Kryonix Labs is a decision-intelligence company. We help businesses understand operational and technology choices, decide what should happen next and check whether it worked.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kryonixlabs.com/company">
+  <link rel="canonical" href="https://kryonixlabs.com/company">
+  <meta name="theme-color" content="#05070E">
+  <link rel="icon" href="brand/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="site.css">
+  <script>document.documentElement.className = "js";</script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="top">
+    <a class="brand" href="index.html"><img src="brand/logo.svg" alt="" width="26" height="26">Kryonix Labs</a>
+    <nav class="nav" aria-label="Main"><a href="solve.html">What we solve</a><a href="intelligence.html">Intelligence</a><a href="review.html">The Review</a><a href="company.html" aria-current="page">Company</a><a class="cta" href="contact.html">Begin your Review</a></nav>
+  </header>
+  <main id="main">
+    <section class="screen"><div class="w">
+      <p class="k">Company</p>
+      <h1 class="title" id="mission">Our mission</h1>
+      <p class="mission">Make every consequential decision traceable, from the evidence behind it to the outcome it produced.</p>
+      <p class="lede">Kryonix Labs is an independent <span class="grad">decision-intelligence company.</span> We assess business challenges on evidence, agree decisions with our clients, scope the right solutions, and verify outcomes.</p>
+      <div class="boundary"><p class="k">What we don't do</p><p class="quiet">Kryonix Labs is not a generic chatbot company and does not promise unrestricted autonomous decision-making. Our systems support evidence-based recommendations and accountable execution, while consequential actions remain subject to appropriate human authorization.</p></div>
+    </div></section>
+  </main>
+  <footer>
+    <div class="ftop">
+      <div class="fbrand">
+        <div class="fb"><img src="brand/logo.svg" alt="" width="22" height="22">Kryonix Labs</div>
+        <p>Evidence-backed decisions about how your business works.</p>
+        <p class="fnote"><span class="live"></span>Client Portal in private testing · access by invitation</p>
+      </div>
+      <div><h4>Explore</h4><a href="solve.html">What we solve</a><a href="intelligence.html">Intelligence</a><a href="review.html">See how it works →</a></div>
+      <div><h4>Company</h4><a href="company.html">About</a><a href="company.html#mission">Mission</a><a href="mailto:contact@kryonixlabs.com?subject=Partnership">Partnerships</a></div>
+      <div><h4>Contact</h4><a href="contact.html">Begin your Review</a><a href="mailto:contact@kryonixlabs.com">contact@kryonixlabs.com</a></div>
+    </div>
+    <div class="fbottom"><span>© <span id="year"></span> Kryonix Labs. All rights reserved.</span></div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    (function () {
+      var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var els = document.querySelectorAll('.reveal');
+      if ('IntersectionObserver' in window && !reduce) {
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+        }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+        els.forEach(function (el) { io.observe(el); });
+      } else { els.forEach(function (el) { el.classList.add('in'); }); }
+    })();
+  </script>
+</body>
+</html>

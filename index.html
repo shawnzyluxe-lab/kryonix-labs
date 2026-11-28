@@ -1,327 +1,73 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Kryonix Labs — Decision Intelligence</title>
-  <meta name="description" content="Kryonix Labs is a decision-intelligence company: we assess your challenge on evidence, decide the right course, scope the solution, and verify the outcome.">
+  <title>Kryonix Labs — Intelligence, engineered.</title>
+  <meta name="description" content="We assess your challenge on evidence, decide the right course, and verify the outcome. Kryonix Labs is a decision-intelligence company.">
   <meta property="og:title" content="Kryonix Labs — Intelligence, engineered.">
-  <meta property="og:description" content="Decision intelligence for business challenges: evidence-backed assessment, a decided course, a scoped solution, a verified outcome.">
+  <meta property="og:description" content="We assess your challenge on evidence, decide the right course, and verify the outcome. Kryonix Labs is a decision-intelligence company.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://kryonixlabs.com/">
+  <link rel="canonical" href="https://kryonixlabs.com/">
   <meta name="theme-color" content="#05070E">
   <link rel="icon" href="brand/logo.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="site.css">
+  <script>document.documentElement.className = "js";</script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
-  <header class="nav">
-    <a class="brand" href="#top">
-      <img src="brand/logo.svg" alt="" width="36" height="36">
-      <span>Kryonix <em>Labs</em></span>
-    </a>
-    <nav aria-label="Main">
-      <a href="#solutions">What you receive</a>
-      <a href="#technology">Trust</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#company">Company</a>
-      <a class="btn btn-sm" href="#contact">Request access</a>
-    </nav>
+  <header class="top">
+    <a class="brand" href="index.html"><img src="brand/logo.svg" alt="" width="26" height="26">Kryonix Labs</a>
+    <nav class="nav" aria-label="Main"><a href="solve.html">What we solve</a><a href="intelligence.html">Intelligence</a><a href="review.html">The Review</a><a href="company.html">Company</a><a class="cta" href="contact.html">Begin your Review</a></nav>
   </header>
-
   <main id="main">
-    <section class="hero" id="top">
-      <div class="wrap">
-        <p class="eyebrow">Decision intelligence</p>
-        <h1>Intelligence,<br><span class="grad">engineered.</span></h1>
-        <p class="headline">We assess your challenge on evidence, decide the right course, and verify the outcome.</p>
-        <p class="lede">Kryonix Labs is a decision-intelligence company. You bring a business challenge; we assess it against evidence, agree a decision with you, scope the right solution — software only when the assessment calls for it — and verify the outcome before it counts as done.</p>
-        <div class="cta">
-          <p class="fine" role="status">Currently in controlled validation with a limited number of Founder-led engagements. <a href="#validation">What this means</a></p>
-          <a class="btn" href="#contact">Request access</a>
-          <a class="btn btn-ghost" href="#contact">Join the early-access list</a>
+    <section class="screen"><div class="w">
+      <div class="hero2">
+        <div>
+          <p class="k">Kryonix Labs · Decision intelligence</p>
+          <h1 class="display">Intelligence,<br><span class="grad">engineered.</span></h1>
+          <p class="say">We assess your challenge on evidence, decide the right course, and verify the outcome.</p>
+          <p class="lede">Kryonix Labs is a decision-intelligence company. Bring us a business challenge; we assess it against evidence, agree the decision with you, and scope the right solution—whether that means improving a workflow, automating a step, choosing a system, gathering more evidence or taking no action. When action is taken, we verify the outcome before it counts as done.</p>
         </div>
-        <ul class="pillars" aria-label="Principles">
-          <li>Evidence</li><li>Coordination</li><li>Human authority</li><li>Verified outcomes</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="solutions" class="band">
-      <div class="wrap">
-        <header class="section-head">
-          <p class="kicker">What you receive</p>
-          <h2>Decision intelligence, end to end.</h2>
-          <p class="sub">You do not need a complete technical specification to begin. We start with your goals, constraints, and the problem that needs solving.</p>
-        </header>
-        <div class="tiles tiles-4">
-          <article class="tile"><h3>Evidence-backed assessment</h3><p>Your challenge is assessed against the evidence you provide. Where information is missing, we say so rather than guess.</p></article>
-          <article class="tile"><h3>A decided course</h3><p>Assessment produces a written decision: the problem as we understand it, the options considered, and the course we recommend — with its reasoning.</p></article>
-          <article class="tile"><h3>A scoped solution and verified outcome</h3><p>When a build or integration is warranted, scope and terms are agreed in writing first. The outcome is checked against what was agreed before it counts as delivered.</p></article>
-        </div>
-        <div class="cta left"><a class="btn" href="#contact">Describe your challenge</a></div>
-      </div>
-    </section>
-
-    <section id="what-we-help" class="band band-alt">
-      <div class="wrap">
-        <header class="section-head">
-          <p class="kicker">What you can bring us</p>
-          <h2>What Kryonix can help you improve</h2>
-        </header>
-        <div class="tiles tiles-4">
-          <article class="tile"><h3>Build an operating foundation</h3><ul class="tile-list">
-            <li>Turn a business concept into an operating company</li>
-            <li>Define roles, departments, authority, and approvals</li>
-            <li>Design customer, administrative, financial, and delivery workflows</li>
-            <li>Determine what should be handled by people, AI agents, software, or existing tools</li>
-          </ul></article>
-          <article class="tile"><h3>Improve existing operations</h3><ul class="tile-list">
-            <li>Repetitive manual work and data entry</li>
-            <li>Disconnected tools and information</li>
-            <li>Slow approvals and unclear ownership</li>
-            <li>Customer requests that get lost between people or systems</li>
-            <li>Reporting, finance, and administrative processes that depend on memory</li>
-            <li>Workflows that cannot scale with demand</li>
-          </ul></article>
-          <article class="tile"><h3>Make technology and systems decisions</h3><ul class="tile-list">
-            <li>Decide whether to build, buy, replace, integrate, modernize or defer</li>
-            <li>Evaluate existing systems, constraints and total cost</li>
-            <li>Compare vendors and implementation options</li>
-            <li>Define authority, security, failure-handling and verification requirements</li>
-            <li>Identify when engineering is justified</li>
-          </ul></article>
-          <article class="tile"><h3>Improve customer operations</h3><p>Evaluate how customers discover, buy, onboard, receive service and get support, then decide what should change before investing in tools or builds.</p></article>
-        </div>
-        <header class="section-head" style="margin-top:2.5rem">
-          <h3>Not sure what solution you need? That’s the point.</h3>
-          <p class="sub">Describe the challenge, and Kryonix will assess the evidence, clarify the requirement, and identify the right next step.</p>
-        </header>
-        <div class="cta left">
-          <a class="btn" href="#contact">Describe your challenge</a>
-          <a class="btn btn-ghost" href="#contact">Request access</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="intelligence" class="band">
-      <div class="wrap">
-        <header class="section-head">
-          <p class="kicker">What we do</p>
-          <h2>Powered by Kryonix Intelligence</h2>
-        </header>
-        <p class="sub" style="max-width:60rem">Every engagement runs through Kryonix Intelligence, the decision system we developed to help us find a practical way to achieve your goal.</p>
-        <p class="sub" style="max-width:60rem">It evaluates the evidence, examines the people, processes, and systems you already have, identifies workable options within your constraints, and helps us determine what should happen next. That may mean improving a workflow, configuring or connecting existing tools, gathering more evidence, or engineering something new.</p>
-        <p class="sub" style="max-width:60rem">After the work is completed, we evaluate the result against the original outcome. If it worked, we verify and close the engagement. If it did not, the new evidence guides the next decision.</p>
-      </div>
-    </section>
-
-    <section id="decision-intelligence" class="band band-alt">
-      <div class="wrap">
-        <header class="section-head">
-          <p class="kicker">How we work</p>
-          <h2>From your problem to a verified outcome.</h2>
-          <p class="sub">Not every problem needs new software. We first understand what matters, then agree on a solution and a delivery approach.</p>
-        </header>
-        <ol class="steps">
-          <li><span class="num">01</span><h4>Request access</h4><p>The client Portal is invitation-only during controlled validation. Request access or join the early-access list and we will contact you; a request does not open the Portal.</p></li>
-          <li><span class="num">02</span><h4>Share your challenge</h4><p>Describe your business and what you want to improve. Avoid confidential details.</p></li>
-          <li><span class="num">03</span><h4>Assessment</h4><p>We ask the questions your evidence supports and flag what is missing before any proposal.</p></li>
-          <li><span class="num">04</span><h4>Decision and scoped proposal</h4><p>We agree the decision, scope and terms in writing before any engagement is accepted.</p></li>
-          <li><span class="num">05</span><h4>Delivery and verified outcome</h4><p>For accepted engagements we coordinate delivery and verify the outcome against what was agreed.</p></li>
-        </ol>
-      </div>
-    </section>
-
-    <section id="validation" class="band">
-      <div class="wrap">
-        <header class="section-head">
-          <p class="kicker">Status</p>
-          <h2>Currently in controlled validation</h2>
-          <p class="sub">Kryonix Labs is validating its end-to-end client experience through a limited number of Founder-led engagements. Our decision-assessment workflow, including qualification, evidence review, recommendations, client decisions and governed delivery, has completed internal end-to-end testing.</p>
-        </header>
-        <div class="tiles tiles-4">
-          <article class="tile"><h3>What is being validated</h3><p>The client experience and delivery pathway with real engagements: how quickly we respond, how evidence is exchanged, and how findings are presented and delivered. The decision-intelligence method itself is not in testing.</p></article>
-          <article class="tile"><h3>What already works</h3><p>Guided qualification, evidence review, findings with options and trade-offs, a written recommendation, client decisions, and delivery checked against what was agreed. All of it runs in an invitation-only client Portal.</p></article>
-          <article class="tile"><h3>What you can do today</h3><p>Request access and describe your challenge. We will contact you to qualify it, and accepted engagements begin under written scope and terms.</p></article>
-        </div>
-        <div class="cta left"><a class="btn" href="#contact">Request access</a></div>
-      </div>
-    </section>
-
-    <section id="technology" class="band band-alt">
-      <div class="wrap">
-        <header class="section-head">
-          <p class="kicker">Why customers trust it</p>
-          <h2>Every decision traceable, from evidence to outcome.</h2>
-          <p class="sub">Your engagement keeps one continuous record: what we knew, who was responsible, what was approved, what was done and what actually happened.</p>
-        </header>
-        <ol class="flow">
-          <li>
-            <span class="num">01</span>
-            <h3>Evidence</h3>
-            <p>Every recommendation you receive carries the data and assumptions behind it. Where evidence is missing, we say so rather than guessing.</p>
-          </li>
-          <li>
-            <span class="num">02</span>
-            <h3>Continuity</h3>
-            <p>Your decisions stay connected to the commitments and follow-ups they create, so nothing depends on memory.</p>
-          </li>
-          <li>
-            <span class="num">03</span>
-            <h3>Your authority</h3>
-            <p>We prepare and recommend. You approve, and consequential actions wait for that approval.</p>
-          </li>
-          <li>
-            <span class="num">04</span>
-            <h3>Verified outcomes</h3>
-            <p>Results are checked against what each decision promised, and that history informs the next one.</p>
-          </li>
-        </ol>
-        <p class="sub">The result: fewer decisions lost, clear accountability for every approval, and results you can check.</p>
-      </div>
-    </section>
-
-    <section id="boundaries" class="band">
-      <div class="wrap">
-        <header class="section-head">
-          <h2>What we don't do</h2>
-          <p class="sub">Kryonix Labs is not a generic chatbot company and does not promise unrestricted autonomous decision-making. Our systems support evidence-based recommendations and accountable execution, while consequential actions remain subject to appropriate human authorization.</p>
-          
-        </header>
-      </div>
-    </section>
-
-    <section id="contact" class="contact">
-      <div class="contact-card">
-        <p class="kicker">Project inquiries</p>
-        <h2>Tell us what you are trying to solve.</h2>
-        <p>Share your business challenge. We review inquiries and contact organizations where we see a potential fit. You do not need to know the technical solution.</p>
-        <form class="inquiry" id="inquiry" data-endpoint="https://inquiry.kryonixlabs.com/inquiry" novalidate>
-          <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" autocomplete="name" required maxlength="120"></div>
-          <div class="field"><label for="f-email">Work email</label><input id="f-email" name="email" type="email" autocomplete="email" required maxlength="200"></div>
-          <div class="field"><label for="f-org">Organization</label><input id="f-org" name="organization" autocomplete="organization" required maxlength="160"></div>
-          <div class="field"><label for="f-cat">Inquiry category</label>
-            <select id="f-cat" name="category" required>
-              <option value="">Select a category</option>
-              <option>Enterprise decision intelligence</option>
-              <option>Partnership</option>
-              <option>Research collaboration</option>
-              <option>Investor relations</option>
-              <option>Other</option>
-            </select></div>
-          <div class="field field-wide"><label for="f-msg">What problem are you trying to solve?</label><textarea id="f-msg" name="challenge" rows="4" required maxlength="2000"></textarea><span class="hint">Please do not include passwords, financial account details, or confidential business information.</span></div>
-          <div class="hp" aria-hidden="true"><label for="f-web">Website</label><input id="f-web" name="website" tabindex="-1" autocomplete="off"></div>
-          <div class="field-wide cf-turnstile" data-sitekey="0x4AAAAAAFgZSBF7W64GXmmj" data-theme="dark" data-response-field="false"></div>
-          <div class="field-wide form-foot">
-            <button class="btn" type="submit">Submit project inquiry</button>
-            <p class="fine" id="inquiry-status" role="status" aria-live="polite">Prefer email? Write to <a href="mailto:contact@kryonixlabs.com">contact@kryonixlabs.com</a>.</p>
-          </div>
-          <p class="fine field-wide privacy">We use the details you send only to respond to your inquiry. They\'re stored securely, never sold, and deleted on request: email <a href="mailto:contact@kryonixlabs.com">contact@kryonixlabs.com</a>.</p>
-        </form>
-        <div class="paths single">
-          <a class="path" href="https://thezyven.com/apply">
-            <span class="path-title">Zyven early access</span>
-            <span class="path-body">For businesses that take payments with Square. Zyven's application is separate; apply on the Zyven site.</span>
+        <div class="solve">
+          <a class="ad" href="review.html">
+            <span class="ad-badge"><span class="live"></span>Client Portal · now in private testing</span>
+            <b>Your engagement, in one private place.</b>
+            <i>Accepted clients share evidence securely, follow each stage of the assessment, read the written recommendation and approve next steps in the Kryonix client Portal.</i>
+            <span class="ad-chips"><span>Secure evidence sharing</span><span>Stage-by-stage progress</span><span>Written recommendation</span><span>Your approvals</span></span>
+            <span class="ad-cta">See the client journey <span>→</span></span>
           </a>
         </div>
       </div>
-    </section>
-
-    <section id="portfolio" class="band band-alt">
-      <div class="wrap">
-        <header class="section-head">
-          <p class="kicker">Company portfolio</p>
-          <h2>Our products.</h2>
-          <p class="sub">Our products apply Kryonix decision intelligence to specific workflows. They demonstrate the approach; they don't define the company.</p>
-        </header>
-
-        <article class="feature card-zyven">
-          <div class="feature-body">
-            <span class="tag">Commercial product</span>
-            <h3>Zyven</h3>
-            <p>Cash-flow intelligence for businesses that take payments with Square. Zyven connects to Square and business bank accounts with read-only access, and gives owners a clear view of what the business kept, how much cash it has and what's coming due, with the numbers behind every figure.</p>
-            <p class="note"><strong>Early access by application.</strong> Accepted businesses are invited to sign up. In development: recommended cash actions that the owner reviews and approves.</p>
-          </div>
-          <div class="feature-links">
-            <a class="btn btn-sm" href="https://thezyven.com/apply">Apply for early access</a>
-            <a class="link" href="https://thezyven.com">Visit Zyven →</a>
-          </div>
-        </article>
-
-        <div class="grid">
-          <article class="card card-aegis">
-            <span class="tag">Internal research system</span>
-            <h3>Aegis Alpha</h3>
-            <p>Kryonix Labs' research and evidence system for market analysis, keeping a structured record of hypotheses, decisions and outcomes. Not an investment service.</p>
-          </article>
-          <article class="card card-vantav">
-            <span class="tag">Commerce · Paused</span>
-            <h3>Vantav</h3>
-            <p>Commerce intelligence for online-store operators. Development is paused.</p>
-          </article>
-        </div>
-        
-      </div>
-    </section>
-
-    <section id="company" class="band">
-      <div class="wrap">
-        <div class="mission">
-          <p class="kicker">Company</p>
-          <h2>Our mission</h2>
-          <p class="statement">Make every consequential decision traceable, from the evidence behind it to the outcome it produced.</p>
-          <p>Kryonix Labs is an independent decision-intelligence company. We assess business challenges on evidence, agree decisions with our clients, scope the right solutions, and verify outcomes.</p>
-          <h3 class="minor">Partnerships</h3>
-          <p>We welcome conversations with organizations, researchers and technology partners working on complex operational decisions.</p>
-          <h3 class="minor">Contact</h3>
-          <p>Kryonix Labs · <a class="link" href="mailto:contact@kryonixlabs.com">contact@kryonixlabs.com</a></p>
-        </div>
-      </div>
-    </section>
+    </div></section>
   </main>
-
   <footer>
-    <div class="foot-brand">
-      <img src="brand/logo.svg" alt="" width="24" height="24">
-      <span>Kryonix Labs</span>
+    <div class="ftop">
+      <div class="fbrand">
+        <div class="fb"><img src="brand/logo.svg" alt="" width="22" height="22">Kryonix Labs</div>
+        <p>Evidence-backed decisions about how your business works.</p>
+        <p class="fnote"><span class="live"></span>Client Portal in private testing · access by invitation</p>
+      </div>
+      <div><h4>Explore</h4><a href="solve.html">What we solve</a><a href="intelligence.html">Intelligence</a><a href="review.html">See how it works →</a></div>
+      <div><h4>Company</h4><a href="company.html">About</a><a href="company.html#mission">Mission</a><a href="mailto:contact@kryonixlabs.com?subject=Partnership">Partnerships</a></div>
+      <div><h4>Contact</h4><a href="contact.html">Begin your Review</a><a href="mailto:contact@kryonixlabs.com">contact@kryonixlabs.com</a></div>
     </div>
-    <p class="fine">© <span id="year"></span> Kryonix Labs. All rights reserved. Aegis Alpha is an internal research system; nothing on this site is financial or investment advice.</p>
+    <div class="fbottom"><span>© <span id="year"></span> Kryonix Labs. All rights reserved.</span></div>
   </footer>
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
     (function () {
-      var form = document.getElementById('inquiry');
-      if (!form) return;
-      var button = form.querySelector('button[type="submit"]');
-      var status = document.getElementById('inquiry-status');
-      var fallback = ' Please email <a href="mailto:contact@kryonixlabs.com">contact@kryonixlabs.com</a> instead.';
-      if (!form.dataset.endpoint) { button.disabled = true; return; }
-      function say(html) { status.innerHTML = html; }
-      form.addEventListener('submit', function (e) {
-        e.preventDefault();
-        if (!form.checkValidity()) { form.reportValidity(); return; }
-        var token = window.turnstile ? window.turnstile.getResponse() : '';
-        if (!token) { say('Please complete the verification check above.'); return; }
-        var data = new FormData(form);
-        var payload = { turnstileToken: token };
-        ['name', 'email', 'organization', 'category', 'challenge', 'website'].forEach(function (k) { payload[k] = data.get(k) || ''; });
-        button.disabled = true;
-        say('Sending…');
-        fetch(form.dataset.endpoint, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(payload) })
-          .then(function (res) { return res.json().then(function (body) { return { ok: res.ok && body.ok, body: body }; }); })
-          .then(function (r) {
-            if (r.ok) { form.reset(); say('Thank you. Your inquiry has been received. We may contact you about next steps.'); return; }
-            if (r.body && r.body.error === 'invalid_fields') say('Please check the highlighted details and try again.');
-            else say('We couldn’t send your inquiry.' + fallback);
-            button.disabled = false;
-          })
-          .catch(function () { say('We couldn’t send your inquiry.' + fallback); button.disabled = false; })
-          .finally(function () { if (window.turnstile) window.turnstile.reset(); });
-      });
+      var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var els = document.querySelectorAll('.reveal');
+      if ('IntersectionObserver' in window && !reduce) {
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+        }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+        els.forEach(function (el) { io.observe(el); });
+      } else { els.forEach(function (el) { el.classList.add('in'); }); }
     })();
   </script>
 </body>

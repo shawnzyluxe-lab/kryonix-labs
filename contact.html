@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Begin your Review — Kryonix Labs</title>
+  <meta name="description" content="Tell us about the decision. Start with a free fit and scope check. No analysis or charge until you accept the offer.">
+  <meta property="og:title" content="Begin your Review — Kryonix Labs">
+  <meta property="og:description" content="Tell us about the decision. Start with a free fit and scope check. No analysis or charge until you accept the offer.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kryonixlabs.com/contact">
+  <link rel="canonical" href="https://kryonixlabs.com/contact">
+  <meta name="theme-color" content="#05070E">
+  <link rel="icon" href="brand/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="site.css">
+  <script>document.documentElement.className = "js";</script>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="top">
+    <a class="brand" href="index.html"><img src="brand/logo.svg" alt="" width="26" height="26">Kryonix Labs</a>
+    <nav class="nav" aria-label="Main"><a href="solve.html">What we solve</a><a href="intelligence.html">Intelligence</a><a href="review.html">The Review</a><a href="company.html">Company</a><a class="cta" href="contact.html">Begin your Review</a></nav>
+  </header>
+  <main id="main">
+    <section class="screen"><div class="w contact">
+      <div>
+        <p class="k">Begin your Review</p>
+        <h1 class="title">Tell us about <span class="mute">the decision.</span></h1>
+        <p class="lede">Describe your challenge in a few sentences. Start with a free fit and scope check. No analysis or charge until you accept the offer.</p>
+        <p class="quiet" style="margin-top:14px">You do not need a complete technical specification to begin.</p>
+        <p class="status" style="margin-top:32px"><i class="dot"></i>Reviews available by request</p>
+        <p class="quiet">The client Portal is in private testing and access is by invitation. Sending a challenge does not create an engagement or a charge.</p>
+      </div>
+      <form class="inquiry" id="inquiry" data-endpoint="https://inquiry.kryonixlabs.com/inquiry" novalidate>
+        <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" autocomplete="name" required maxlength="120"></div>
+        <div class="field"><label for="f-email">Work email</label><input id="f-email" name="email" type="email" autocomplete="email" required maxlength="200"></div>
+        <div class="field"><label for="f-org">Organization</label><input id="f-org" name="organization" autocomplete="organization" required maxlength="160"></div>
+        <div class="field"><label for="f-cat">Inquiry category</label>
+          <select id="f-cat" name="category" required>
+            <option value="">Select a category</option>
+            <option value="Enterprise decision intelligence">Decision Readiness Review / business challenge</option>
+            <option>Partnership</option>
+            <option>Research collaboration</option>
+            <option>Investor relations</option>
+            <option>Other</option>
+          </select></div>
+        <div class="field field-wide"><label for="f-msg">What challenge are you trying to solve?</label><textarea id="f-msg" name="challenge" rows="4" required maxlength="2000"></textarea><span class="hint">Please do not include passwords, financial account details, or confidential business information.</span></div>
+        <div class="hp" aria-hidden="true"><label for="f-web">Website</label><input id="f-web" name="website" tabindex="-1" autocomplete="off"></div>
+        <div class="field-wide cf-turnstile" data-sitekey="0x4AAAAAAFgZSBF7W64GXmmj" data-theme="dark" data-response-field="false"></div>
+        <div class="field-wide form-foot">
+          <button class="pill solid" type="submit">Submit for fit review</button>
+          <p class="fine" id="inquiry-status" role="status" aria-live="polite">Prefer email? Write to <a href="mailto:contact@kryonixlabs.com">contact@kryonixlabs.com</a>.</p>
+        </div>
+        <p class="fine field-wide privacy">We use the details you send only to respond to your inquiry. They’re stored securely, never sold, and deleted on request: email <a href="mailto:contact@kryonixlabs.com">contact@kryonixlabs.com</a>.</p>
+      </form>
+    </div></section>
+  </main>
+  <footer>
+    <div class="ftop">
+      <div class="fbrand">
+        <div class="fb"><img src="brand/logo.svg" alt="" width="22" height="22">Kryonix Labs</div>
+        <p>Evidence-backed decisions about how your business works.</p>
+        <p class="fnote"><span class="live"></span>Client Portal in private testing · access by invitation</p>
+      </div>
+      <div><h4>Explore</h4><a href="solve.html">What we solve</a><a href="intelligence.html">Intelligence</a><a href="review.html">See how it works →</a></div>
+      <div><h4>Company</h4><a href="company.html">About</a><a href="company.html#mission">Mission</a><a href="mailto:contact@kryonixlabs.com?subject=Partnership">Partnerships</a></div>
+      <div><h4>Contact</h4><a href="contact.html">Begin your Review</a><a href="mailto:contact@kryonixlabs.com">contact@kryonixlabs.com</a></div>
+    </div>
+    <div class="fbottom"><span>© <span id="year"></span> Kryonix Labs. All rights reserved.</span></div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    (function () {
+      var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var els = document.querySelectorAll('.reveal');
+      if ('IntersectionObserver' in window && !reduce) {
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+        }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+        els.forEach(function (el) { io.observe(el); });
+      } else { els.forEach(function (el) { el.classList.add('in'); }); }
+    })();
+  </script>
+  <script>
+    (function () {
+      var form = document.getElementById('inquiry');
+      if (!form) return;
+      var button = form.querySelector('button[type="submit"]');
+      var status = document.getElementById('inquiry-status');
+      var fallback = ' Please email <a href="mailto:contact@kryonixlabs.com">contact@kryonixlabs.com</a> instead.';
+      if (!form.dataset.endpoint) { button.disabled = true; return; }
+      function say(html) { status.innerHTML = html; }
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        if (!form.checkValidity()) { form.reportValidity(); return; }
+        var token = window.turnstile ? window.turnstile.getResponse() : '';
+        if (!token) { say('Please complete the verification check above.'); return; }
+        var data = new FormData(form);
+        var payload = { turnstileToken: token };
+        ['name', 'email', 'organization', 'category', 'challenge', 'website'].forEach(function (k) { payload[k] = data.get(k) || ''; });
+        button.disabled = true;
+        say('Sending…');
+        fetch(form.dataset.endpoint, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(payload) })
+          .then(function (res) { return res.json().then(function (body) { return { ok: res.ok && body.ok, body: body }; }); })
+          .then(function (r) {
+            if (r.ok) { form.reset(); say('Thank you. Your inquiry has been received. We may contact you about next steps.'); return; }
+            if (r.body && r.body.error === 'invalid_fields') say('Please check the highlighted details and try again.');
+            else say('We couldn’t send your inquiry.' + fallback);
+            button.disabled = false;
+          })
+          .catch(function () { say('We couldn’t send your inquiry.' + fallback); button.disabled = false; })
+          .finally(function () { if (window.turnstile) window.turnstile.reset(); });
+      });
+    })();
+  </script>
+</body>
+</html>
