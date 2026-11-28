@@ -428,3 +428,4 @@ footer .fnote .live{width:6px;height:6px;border-radius:50%;background:var(--life
 .rv-h{font-size:1.15rem;margin:0 0 6px;letter-spacing:-.01em}
 .rv-sub{font-size:.86rem;margin-bottom:16px}
 @media (max-width:820px){.ki-eng-cols{grid-template-columns:1fr;gap:14px}}
+.rv-inc,.rv-faq{scroll-margin-top:96px}
