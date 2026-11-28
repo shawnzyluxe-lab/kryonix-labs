@@ -456,7 +456,7 @@ footer .fnote .live{width:6px;height:6px;border-radius:50%;background:var(--life
 .pv-tag{color:var(--cyan)!important;border-color:rgba(114,242,255,.25)!important}
 .pv-status span{font-size:.86rem;font-weight:500;color:var(--text)}
 .pv-line{position:relative;height:2px;border-radius:2px;background:rgba(255,255,255,.08);overflow:hidden}
-.pv-fill{position:absolute;inset:0 auto 0 0;width:50%;border-radius:2px;background:linear-gradient(90deg,var(--cyan),var(--violet),var(--cyan));background-size:200% 100%;box-shadow:0 0 10px rgba(114,242,255,.45)}
+.pv-fill{position:absolute;inset:0 auto 0 0;width:30%;border-radius:2px;background:linear-gradient(90deg,var(--cyan),var(--violet),var(--cyan));background-size:200% 100%;box-shadow:0 0 10px rgba(114,242,255,.45)}
 .pv-steps{display:flex;flex-wrap:wrap;align-items:center;gap:4px 7px;font-size:.72rem;color:var(--dim)}
 .pv-steps .pv-done{color:var(--muted)}.pv-steps .pv-done em{font-style:normal;color:var(--cyan)}
 .pv-steps .pv-now{color:var(--text);font-weight:600;display:inline-flex;align-items:center;gap:5px}
@@ -470,7 +470,7 @@ footer .fnote .live{width:6px;height:6px;border-radius:50%;background:var(--life
 @media (prefers-reduced-motion:no-preference){
 .pv-fill{animation:pvfill 2.6s cubic-bezier(.2,.8,.2,1) .4s both,pvglow 7s ease-in-out 3s infinite alternate}
 .pv-steps .dot{animation:pvpulse 2.4s ease-in-out infinite}}
-@keyframes pvfill{from{width:0}to{width:50%}}
+@keyframes pvfill{from{width:0}to{width:30%}}
 @keyframes pvglow{from{background-position:0 0}to{background-position:100% 0}}
 @keyframes pvpulse{0%{box-shadow:0 0 0 0 rgba(140,111,255,.55)}70%{box-shadow:0 0 0 7px rgba(140,111,255,0)}100%{box-shadow:0 0 0 0 rgba(140,111,255,0)}}
 @media (prefers-reduced-motion:reduce){.ad:hover{transform:none}}
