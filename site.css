@@ -429,3 +429,11 @@ footer .fnote .live{width:6px;height:6px;border-radius:50%;background:var(--life
 .rv-sub{font-size:.86rem;margin-bottom:16px}
 @media (max-width:820px){.ki-eng-cols{grid-template-columns:1fr;gap:14px}}
 .rv-inc,.rv-faq{scroll-margin-top:96px}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.hero-cta .pill{padding:.8rem 1.35rem;font-size:.95rem}
+.hero-note{margin:12px 0 0;color:var(--muted);font-size:.85rem}
+.hero-pts{list-style:none;padding:0;margin:36px 0 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;border-top:1px solid var(--line);padding-top:22px;max-width:42rem}
+.hero-pts li{font-size:.84rem;line-height:1.5;color:var(--muted)}
+.hero-pts b{display:block;color:var(--text);font-weight:600;font-size:.92rem;margin-bottom:4px}
+.boundary+.boundary{margin-top:24px}
+@media (max-width:640px){.hero-pts{grid-template-columns:1fr;gap:14px}}
