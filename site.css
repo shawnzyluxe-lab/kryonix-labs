@@ -35,7 +35,7 @@ h1,h2,h3{margin:0;font-weight:600}
 .say{font-size:clamp(1.5rem,2.4vw,2.1rem);line-height:1.2;letter-spacing:-.02em;font-weight:500;color:var(--text);max-width:26ch;margin:0}
 .say b{color:var(--text);font-weight:500}
 .screen .display.hero-h{font-size:clamp(2.6rem,4.6vw,4.4rem);line-height:1;max-width:13ch}
-.say.lead{font-size:clamp(1.15rem,1.6vw,1.45rem);line-height:1.35;max-width:40ch;color:var(--text)}
+.say.lead{font-size:clamp(1.05rem,1.35vw,1.2rem);line-height:1.55;max-width:44ch;color:var(--muted);font-weight:400;letter-spacing:0}
 .lede{font-size:1.2rem;color:var(--muted);max-width:42rem;margin:24px 0 0}
 .quiet{font-size:.9rem;color:var(--dim);max-width:42rem;margin:0}
 
@@ -483,6 +483,3 @@ footer .fnote .live{width:6px;height:6px;border-radius:50%;background:var(--life
 .hero-pts{margin-top:28px;padding-top:18px;gap:20px;max-width:36rem}
 .hero-pts li{font-size:.74rem;line-height:1.45;color:var(--dim)}
 .hero-pts b{font-size:.78rem;font-weight:500;color:var(--muted);margin-bottom:2px}
-.hero2 .ad{opacity:.8;background:radial-gradient(120% 90% at 100% 0%,rgba(140,111,255,.12),transparent 60%),radial-gradient(90% 80% at 0% 100%,rgba(114,242,255,.07),transparent 60%),var(--bg2);border-color:rgba(255,255,255,.1);box-shadow:0 20px 60px -36px rgba(140,111,255,.35);transition:transform .5s cubic-bezier(.2,.8,.2,1),border-color .3s ease,opacity .3s ease}
-.hero2 .ad:hover,.hero2 .ad:focus-visible{opacity:1;border-color:rgba(114,242,255,.45)}
-.hero2 .ad b{font-size:1.3rem;color:#D5DAF3}
